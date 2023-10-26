@@ -1,0 +1,191 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+/* navbar */
+.header-logo {
+  text-align: center;
+  color: #000;
+
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.2px;
+
+  user-select: none;
+}
+/* end navbar */
+
+/* jumbotron */
+.sec-header-title {
+  position: absolute;
+  left: 40px;
+  top: 0;
+}
+
+.header-title {
+  color: #0eb0f1;
+
+  font-family: Poppins;
+  font-size: 100px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 100px */
+}
+
+.img-spin {
+  animation-duration: 10s;
+}
+
+.sec-jumbotron {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+/* end jumbotron */
+
+/* services */
+.mt-section-services {
+  margin-top: 380px;
+}
+
+.text-services {
+  color: #000;
+
+  font-family: Poppins;
+  font-size: 120px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 72.5%; /* 87px */
+}
+
+.sec-services:nth-child(1) {
+  cursor: url("../cursor/cursor-services-1.png?v=1"), auto;
+}
+
+.sec-services:nth-child(2) {
+  cursor: url("../cursor/cursor-services2.png"), auto;
+}
+
+.sec-services:nth-child(3) {
+  cursor: url("../cursor/cursor-services3.png"), auto;
+}
+/* end services */
+
+/* swipe services */
+.mt-section {
+  margin-top: 120px;
+}
+
+.text-swipe-services {
+  color: #0eb0f1;
+
+  font-family: Poppins;
+  font-size: 60px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.swipe-service .splide__track .splide__list {
+  align-items: center;
+  width: 100%;
+}
+
+.swipe-service .splide__track li.splide__slide {
+  width: fit-content !important;
+  margin-right: calc(5%);
+}
+/* end swipe services */
+
+/* portfolio */
+.portfolio-title {
+  color: #000;
+
+  font-family: Poppins;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 80px */
+}
+
+.union-blue {
+  position: absolute;
+  left: 80%;
+  top: 50%;
+}
+
+.sec-portfolio {
+  margin-top: 80px;
+}
+
+.cursor-eye-portfolio {
+  cursor: url("../cursor/cursor-services4.png"), auto;
+}
+
+.swipe-portfolio .splide__track .splide__list {
+  align-items: center;
+  width: 100%;
+}
+
+.swipe-portfolio .splide__track li.splide__slide {
+  width: fit-content !important;
+  margin-right: calc(5%);
+}
+/* end portfolio */
+
+/* quote */
+.text-quote {
+  color: #000;
+  font-family: Poppins;
+  font-size: 120px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 72.5%; /* 87px */
+}
+/* end quote */
+
+/* contact us */
+.sec-contactus {
+  height: 400px;
+  background: #0eb0f1;
+}
+
+.text-header-contactus {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 120px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 72.5%; /* 87px */
+}
+
+.union-black {
+  position: absolute;
+  left: 90%;
+  top: 50%;
+}
+
+.btn-contactus {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+}
+/* end contact us */
+
+/* footer */
+.footer-logo {
+  text-align: center;
+  color: #fff;
+
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  letter-spacing: 1.2px;
+
+  user-select: none;
+}
