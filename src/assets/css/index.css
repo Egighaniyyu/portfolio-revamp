@@ -34,7 +34,7 @@
 }
 
 .img-spin {
-  animation-duration: 10s;
+  animation-duration: 10s !important;
 }
 
 .sec-jumbotron {
