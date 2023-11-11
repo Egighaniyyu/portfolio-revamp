@@ -60,15 +60,15 @@
 }
 
 .sec-services:nth-child(1) {
-  cursor: url("../cursor/cursor-services-1.png?v=1"), auto;
+  cursor: url("../cursor/cursor-services1new.png"), auto;
 }
 
 .sec-services:nth-child(2) {
-  cursor: url("../cursor/cursor-services2.png"), auto;
+  cursor: url("../cursor/cursor-services2new.png"), auto;
 }
 
 .sec-services:nth-child(3) {
-  cursor: url("../cursor/cursor-services3.png"), auto;
+  cursor: url("../cursor/cursor-services3new.png"), auto;
 }
 /* end services */
 
