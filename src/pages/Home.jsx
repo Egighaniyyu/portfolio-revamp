@@ -1,5 +1,7 @@
-import React from "react";
+import React, { useEffect, useRef } from "react";
 import "../assets/css/index.css";
+
+import gsap from "gsap";
 
 // splide
 import { Splide, SplideSlide } from "@splidejs/react-splide";
@@ -33,8 +35,34 @@ import ExternalLinkIcon from "../assets/images/externallink.svg";
 import ContactIcon from "../assets/images/contact.svg";
 
 const Home = () => {
+  const ballRef = useRef(null);
+
+  useEffect(() => {
+    // Initialize GSAP and set initial ball position
+    const ball = ballRef.current;
+    gsap.set(ball, { left: -25, top: -25 });
+
+    // Handle mousemove event
+    window.addEventListener("mousemove", (e) => {
+      gsap.to(ball, {
+        duration: 0.35,
+        x: e.clientX,
+        y: e.clientY,
+        ease: "none",
+        overwrite: "auto",
+        stagger: 0.035,
+      });
+    });
+
+    return () => {
+      // Cleanup event listener
+      window.removeEventListener("mousemove", () => {});
+    };
+  }, []);
+
   return (
     <>
+      <div className="ball" ref={ballRef}></div>
       {/* header */}
       <div className="container w-full py-9">
         <div className="header-logo">EGIGHANIYYU</div>
