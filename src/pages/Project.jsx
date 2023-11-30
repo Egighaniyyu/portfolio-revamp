@@ -7,7 +7,7 @@ export default function Project() {
   return (
     <>
       <Mainlayouts>
-        <div className="container flex justify-between items-center w-full mt-10">
+        <div className="container flex justify-between items-center w-full">
           <div className="w-5/12">
             <div className="flex flex-col items-start gap-16">
               <div className="flex flex-col items-start gap-5">
