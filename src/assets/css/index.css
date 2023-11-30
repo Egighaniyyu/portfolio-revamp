@@ -294,9 +294,54 @@
   left: 0;
   /*   border: 3px solid dodgerblue; */
   background-color: dodgerblue;
+  opacity: 50%;
   border-radius: 50%;
   pointer-events: none;
   z-index: 1000;
+}
+
+/* project page */
+.title-page {
+  color: #000;
+  font-family: Poppins;
+  font-size: 80px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 100%; /* 80px */
+}
+
+.subtitle-page {
+  color: #616161;
+  font-family: Poppins;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.project-menu {
+  display: flex;
+  padding-bottom: 0px;
+  align-items: center;
+  gap: 10px;
+  align-self: stretch;
+
+  border-bottom: 1px solid #000;
+
+  color: #000;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+
+  width: 100%;
+}
+
+.project-menu:hover {
+  border-bottom: 1px solid #0eb0f1;
+
+  color: #0eb0f1;
 }
 
 /* add media query */
