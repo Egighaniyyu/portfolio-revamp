@@ -47,7 +47,7 @@ const Project = () => {
             <div className="flex flex-col items-start gap-16">
               <div className="flex flex-col items-start gap-5">
                 <div className="title-page">PROJECT</div>
-                <div className="subtitle-page">CREATIVITY IN EVERY CLICK</div>
+                <div className="subtitle-page">CREATIVITY IN EVERY CLICK!</div>
               </div>
               <div className="flex flex-col items-start gap-6 w-full h-60 overflow-y-scroll">
                 {projects.map((project) => (
