@@ -2,6 +2,7 @@ import React from "react";
 import { createBrowserRouter, RouterProvider } from "react-router-dom";
 import Home from "../pages/Home";
 import Project from "../pages/Project";
+import DesignProcess from "../pages/DesignProcess";
 
 const route = createBrowserRouter([
   {
@@ -11,6 +12,10 @@ const route = createBrowserRouter([
   {
     path: "/project",
     element: <Project />,
+  },
+  {
+    path: "/design-process",
+    element: <DesignProcess />,
   },
 ]);
 

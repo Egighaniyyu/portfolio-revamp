@@ -32,9 +32,14 @@ const Floatingbar = () => {
         >
           PROJECT
         </NavLink>
-        {/* <div className="floating-nav active">HOME</div>
-        <div className="floating-nav ">PROJECT</div> */}
-        <div className="floating-nav ">DESIGN PROCESS</div>
+        <NavLink
+          to="/design-process"
+          className={({ isActive }) =>
+            isActive ? "floating-nav active" : "floating-nav"
+          }
+        >
+          DESIGN PROCESS
+        </NavLink>
         <div className="floating-nav ">EXPERIENCE</div>
         <div className="border border-y-8"></div>
         <TooltipProvider>

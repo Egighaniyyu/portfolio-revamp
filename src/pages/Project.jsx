@@ -1,6 +1,9 @@
 import React, { useState } from "react";
 import Mainlayouts from "../layouts/Mainlayouts";
 
+import DribbbleIcon from "../assets/images/dribbble.svg";
+import MediumIcon from "../assets/images/medium.svg";
+
 const Project = () => {
   const [portfolioImage, setPortfolioImage] = useState(
     "/public/images/portfolio1.png"
@@ -47,7 +50,7 @@ const Project = () => {
             <div className="flex flex-col items-start gap-16">
               <div className="flex flex-col items-start gap-5">
                 <div className="title-page">PROJECT</div>
-                <div className="subtitle-page">CREATIVITY IN EVERY CLICK!</div>
+                <div className="subtitle-page">CREATIVITY IN EVERY CLICK</div>
               </div>
               <div className="flex flex-col items-start gap-6 w-full h-60 overflow-y-scroll">
                 {projects.map((project) => (
@@ -71,6 +74,14 @@ const Project = () => {
               alt="portfolio"
               className="w-10/12 h-auto ml-auto"
             />
+          </div>
+        </div>
+
+        <div className="flex py-10 px-10 justify-between items-center w-full bg-black mt-20">
+          <div className="footer-logo">EGIGHANIYYU</div>
+          <div className="flex items-center gap-8">
+            <img src={DribbbleIcon} alt="dribbble" />
+            <img src={MediumIcon} alt="medium" />
           </div>
         </div>
       </Mainlayouts>
