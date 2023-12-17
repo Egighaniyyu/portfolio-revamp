@@ -21,7 +21,7 @@
   color: #000;
 
   font-family: Poppins;
-  font-size: 24px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -53,9 +53,7 @@
 }
 
 .scroll-spin-image {
-  position: absolute;
-  top: -80px;
-  right: 40px;
+  top: 60%;
 }
 
 .sec-jumbotron {
@@ -65,9 +63,8 @@
 }
 /* end jumbotron */
 
-/* services */
 .mt-section-services {
-  margin-top: 380px;
+  margin-top: 100px;
 }
 
 .text-services {
@@ -76,10 +73,10 @@
   transition: ease-out;
   transition-duration: 0.3s;
   font-family: Poppins;
-  font-size: 120px;
+  font-size: 44px;
   font-style: normal;
   font-weight: 700;
-  line-height: 72.5%; /* 87px */
+  /* line-height: 72.5%; 87px */
 }
 
 .sec-services:nth-child(1) {
@@ -115,14 +112,14 @@
 
 /* swipe services */
 .mt-section {
-  margin-top: 120px;
+  margin-top: 60px;
 }
 
 .text-swipe-services {
   color: #0eb0f1;
 
   font-family: Poppins;
-  font-size: 60px;
+  font-size: 28px;
   font-style: normal;
   font-weight: 700;
   line-height: normal;
@@ -144,7 +141,7 @@
   color: #000;
 
   font-family: Poppins;
-  font-size: 80px;
+  font-size: 40px;
   font-style: normal;
   font-weight: 700;
   line-height: 100%; /* 80px */
@@ -161,17 +158,18 @@
 }
 
 .cursor-eye-portfolio {
-  cursor: url("../cursor/cursor-services4.png"), auto;
+  /* cursor: url("../cursor/cursor-services4.png"); */
+  /* width: fit-content !important; */
 }
 
-.swipe-portfolio .splide__track .splide__list {
+/* .swipe-portfolio .splide__track .splide__list .splide__slide {
   align-items: center;
-  width: 100%;
-}
+  width: fit-content;
+} */
 
 .swipe-portfolio .splide__track li.splide__slide {
   width: fit-content !important;
-  margin-right: calc(5%);
+  margin-right: -32%;
 }
 /* end portfolio */
 
@@ -179,10 +177,10 @@
 .text-quote {
   color: #000;
   font-family: Poppins;
-  font-size: 100px;
+  font-size: 44px;
   font-style: normal;
   font-weight: 700;
-  line-height: 72.5%; /* 87px */
+  /* line-height: 72.5%; */
 }
 
 .img-qoute {
@@ -193,23 +191,26 @@
 
 /* contact us */
 .sec-contactus {
-  height: 400px;
+  /* height: 400px; */
+  height: 300px;
   background: #0eb0f1;
 }
 
 .text-header-contactus {
   color: #fff;
   font-family: Poppins;
-  font-size: 120px;
+  font-size: 44px;
   font-style: normal;
   font-weight: 700;
-  line-height: 72.5%; /* 87px */
+  /* line-height: 72.5%; 87px */
 }
 
 .union-black {
   position: absolute;
-  left: 90%;
-  top: 50%;
+  left: 18%;
+  top: 60%;
+  /* left: 90%; */
+  /* top: 50%; */
 }
 
 .btn-contactus {
@@ -442,49 +443,308 @@
 }
 
 /* add media query */
-@media (max-width: 640px) {
+/* sm screen */
+@media (min-width: 640px) {
+  /* navbar */
+  .header-logo {
+    text-align: center;
+    color: #000;
+
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.2px;
+
+    user-select: none;
+  }
+  /* end navbar */
+
+  /* jumbotron */
   .scroll-spin-image {
+    left: 80% !important;
+    top: -30%;
+  }
+  /* end jumbotron */
+
+  /* services */
+  .mt-section-services {
+    margin-top: 140px;
+  }
+  /* end services */
+
+  /* portfolio */
+  .swipe-portfolio .splide__track li.splide__slide {
+    width: fit-content !important;
+    margin-right: -20%;
+  }
+  /* end portfolio */
+
+  /* contact us */
+  .text-header-contactus {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    /* line-height: 72.5%; 87px */
+  }
+
+  .union-black {
     position: absolute;
-    top: 60px;
-    left: 40px;
+    left: 86%;
+    top: 30%;
+    width: 34%;
   }
+  /* end contact us */
 }
 
-@media (max-width: 696px) {
+/* md screen */
+@media (min-width: 768px) {
+  /* jumbotron */
+  .scroll-spin-image {
+    left: 80% !important;
+    top: -40% !important;
+  }
+  /* end jumbotron */
+
+  /* services */
+  .mt-section-services {
+    margin-top: 160px;
+  }
+
+  .text-services {
+    /* color: #000; */
+
+    transition: ease-out;
+    transition-duration: 0.3s;
+    font-family: Poppins;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    /* line-height: 72.5%; 87px */
+  }
+  /* end services */
+
+  /* swipe services */
+  .text-swipe-services {
+    color: #0eb0f1;
+
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  /* end swipe services */
+
+  /* portfolio */
+  .portfolio-title {
+    color: #000;
+
+    font-family: Poppins;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 80px */
+  }
+  /* end portfolio */
+
+  /* quote */
   .text-quote {
     color: #000;
     font-family: Poppins;
-    font-size: 50px;
+    font-size: 60px;
     font-style: normal;
     font-weight: 700;
-    line-height: 72.5%; /* 87px */
+    /* line-height: 72.5%; */
   }
-}
+  /* end quote */
 
-@media (max-width: 795px) {
-  .text-quote {
-    color: #000;
+  /* contact us */
+  .sec-contactus {
+    /* height: 400px; */
+    height: 400px;
+    background: #0eb0f1;
+  }
+
+  .text-header-contactus {
+    color: #fff;
     font-family: Poppins;
-    font-size: 50px;
+    font-size: 80px;
     font-style: normal;
     font-weight: 700;
-    line-height: 72.5%; /* 87px */
+    /* line-height: 72.5%; 87px */
   }
+
+  .union-black {
+    position: absolute;
+    left: 88%;
+    top: 36%;
+    width: 28%;
+  }
+  /* end contact us */
 }
 
-@media (max-width: 948px) {
+/* lg screen */
+@media (min-width: 1024px) {
+  /* jumbotron */
+  .scroll-spin-image {
+    left: 80% !important;
+    top: -30% !important;
+  }
+  /* end jumbotron */
+
+  /* services */
+  .mt-section-services {
+    margin-top: 240px;
+  }
+
+  .text-services {
+    /* color: #000; */
+
+    transition: ease-out;
+    transition-duration: 0.3s;
+    font-family: Poppins;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 700;
+    /* line-height: 72.5%; 87px */
+  }
+  /* end services */
+
+  /* swiper services */
+  .text-swipe-services {
+    color: #0eb0f1;
+
+    font-family: Poppins;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .mt-section {
+    margin-top: 100px;
+  }
+  /* end swiper services */
+
+  /* portfolio */
+  .portfolio-title {
+    color: #000;
+
+    font-family: Poppins;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 80px */
+  }
+
+  .swipe-portfolio .splide__track li.splide__slide {
+    width: fit-content !important;
+    margin-right: 0;
+  }
+  /* end portfolio */
+
+  /* quote */
   .text-quote {
     color: #000;
     font-family: Poppins;
     font-size: 80px;
     font-style: normal;
     font-weight: 700;
-    line-height: 72.5%; /* 87px */
+    /* line-height: 72.5%; */
+  }
+  /* end quote */
+
+  /* contact us */
+
+  .text-header-contactus {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    /* line-height: 72.5%; 87px */
   }
 
-  .mt-section-services {
-    margin-top: 260px;
+  .union-black {
+    position: absolute;
+    left: 88%;
+    top: 36%;
+    width: 28%;
   }
+  /* end contact us */
+}
+
+/* xl screen */
+@media (min-width: 1200px) {
+  /* jumbotron */
+  .scroll-spin-image {
+    left: 80% !important;
+    top: -25% !important;
+  }
+  /* end jumbotron */
+
+  /* services */
+  .mt-section-services {
+    margin-top: 300px;
+  }
+
+  .text-services {
+    /* color: #000; */
+
+    transition: ease-out;
+    transition-duration: 0.3s;
+    font-family: Poppins;
+    font-size: 110px;
+    font-style: normal;
+    font-weight: 700;
+    /* line-height: 72.5%; 87px */
+  }
+  /* end services */
+
+  /* swiper services */
+  .text-swipe-services {
+    color: #0eb0f1;
+
+    font-family: Poppins;
+    font-size: 60px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+
+  .mt-section {
+    margin-top: 112px;
+  }
+  /* end swiper services */
+
+  /* portfolio */
+  .portfolio-title {
+    color: #000;
+
+    font-family: Poppins;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 80px */
+  }
+  /* end portfolio */
+
+  /* quote */
+  .text-quote {
+    color: #000;
+    font-family: Poppins;
+    font-size: 100px;
+    font-style: normal;
+    font-weight: 700;
+    /* line-height: 72.5%; */
+  }
+  /* end quote */
+
+  /* contact us */
 
   .text-header-contactus {
     color: #fff;
@@ -492,39 +752,18 @@
     font-size: 100px;
     font-style: normal;
     font-weight: 700;
-    line-height: 72.5%; /* 87px */
+    /* line-height: 72.5%; 87px */
   }
+
+  .union-black {
+    position: absolute;
+    left: 90%;
+    top: 36%;
+    width: 30%;
+  }
+  /* end contact us */
 }
 
-@media (max-width: 992px) {
-  .text-quote {
-    color: #000;
-    font-family: Poppins;
-    font-size: 70px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 72.5%; /* 87px */
-  }
-}
-
-@media (max-width: 1118px) {
-  .text-quote {
-    color: #000;
-    font-family: Poppins;
-    font-size: 90px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 72.5%; /* 87px */
-  }
-}
-
-@media (max-width: 1280px) {
-  .text-quote {
-    color: #000;
-    font-family: Poppins;
-    font-size: 100px;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 72.5%; /* 87px */
-  }
+/* xxl screen */
+@media (min-width: 1400px) {
 }

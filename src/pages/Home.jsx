@@ -28,7 +28,7 @@ export default function Home() {
     <>
       <Mainlayouts>
         {/* jumbotron */}
-        <div className="container">
+        <div className="px-4 md:container">
           <div className="sec-jumbotron relative">
             <div className="flex flex-col items-start">
               <div className="header-title text-4xl xl:text-8xl lg:text-7xl md:text-6xl sm:text-5xl">
@@ -43,11 +43,11 @@ export default function Home() {
                 <div className="w-full">
                   <img src={JumbotronImage} alt="Jumbotron" />
                 </div>
-                <div className="scroll-spin-image">
+                <div className="scroll-spin-image absolute left-5 md:-top-1/4">
                   <img
                     src={ScrollDownImage}
                     alt="scroll down"
-                    className="animate-spin img-spin"
+                    className="animate-spin img-spin w-4/12 sm:w-8/12 md:w-10/12 lg:w-12/12 xl:w-fit"
                   />
                 </div>
               </div>
@@ -57,15 +57,15 @@ export default function Home() {
         {/* end jumbotron */}
 
         {/* services */}
-        <div className="container mt-section-services">
-          <div className="flex flex-col items-start gap-8">
-            <div className="w-full flex pt-5 justify-center items-center self-start border-b border-solid border-black sec-services">
+        <div className="px-4 mt-section-services md:container">
+          <div className="flex flex-col items-start gap-3">
+            <div className="w-full flex justify-center items-center self-start border-b border-solid border-black sec-services">
               <div className="text-services text-center">UI DESIGNER</div>
             </div>
-            <div className="w-full flex pt-5 justify-center items-center self-start border-b border-solid border-black sec-services">
+            <div className="w-full flex justify-center items-center self-start border-b border-solid border-black sec-services">
               <div className="text-services text-center">UX DESIGNER</div>
             </div>
-            <div className="w-full flex pt-5 justify-center items-center self-start border-b border-solid border-black sec-services">
+            <div className="w-full flex justify-center items-center self-start border-b border-solid border-black sec-services">
               <div className="text-services text-center">UI ENGINEER</div>
             </div>
           </div>
@@ -114,7 +114,7 @@ export default function Home() {
         {/* end swipe services */}
 
         {/* portfolio */}
-        <div className="container mt-section">
+        <div className="pl-2 mt-section lg:container">
           <div className="flex flex-col items-start relative w-fit">
             <div className="portfolio-title">CREATIVITY IN</div>
             <div className="portfolio-title">EVERY CLICK</div>
@@ -123,7 +123,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="mt-20">
+        <div className="mt-10 lg:mt-20">
           <Splide
             options={{
               type: "loop",
@@ -131,6 +131,7 @@ export default function Home() {
               arrows: false,
               pagination: false,
               perPage: 3,
+              autoWidth: true,
               autoScroll: {
                 pauseOnHover: true,
                 pauseOnFocus: true,
@@ -142,28 +143,44 @@ export default function Home() {
             className="swipe-portfolio"
           >
             <SplideSlide>
-              <div className="cursor-eye-portfolio">
-                <img src={Portfolio1} alt="portfolio1" />
-              </div>
+              {/* <div className="cursor-eye-portfolio"> */}
+              <img
+                src={Portfolio1}
+                alt="portfolio1"
+                className="w-8/12 h-auto lg:w-11/12"
+              />
+              {/* </div> */}
             </SplideSlide>
             <SplideSlide>
-              <div className="cursor-eye-portfolio">
-                <img src={Portfolio2} alt="portfolio2" />
-              </div>
+              {/* <div className="cursor-eye-portfolio "> */}
+              <img
+                src={Portfolio2}
+                alt="portfolio2"
+                className="w-8/12 h-auto lg:w-11/12"
+              />
+              {/* </div> */}
             </SplideSlide>
             <SplideSlide>
-              <div className="cursor-eye-portfolio">
-                <img src={Portfolio3} alt="portfolio3" />
-              </div>
+              {/* <div className="cursor-eye-portfolio "> */}
+              <img
+                src={Portfolio3}
+                alt="portfolio3"
+                className="w-8/12 h-auto lg:w-11/12"
+              />
+              {/* </div> */}
             </SplideSlide>
             <SplideSlide>
-              <div className="cursor-eye-portfolio">
-                <img src={Portfolio4} alt="portfolio4" />
-              </div>
+              {/* <div className="cursor-eye-portfolio "> */}
+              <img
+                src={Portfolio4}
+                alt="portfolio4"
+                className="w-8/12 h-auto lg:w-11/12"
+              />
+              {/* </div> */}
             </SplideSlide>
           </Splide>
         </div>
-        <div className="mt-20">
+        {/* <div className="mt-20">
           <Splide
             options={{
               type: "loop",
@@ -202,18 +219,26 @@ export default function Home() {
               </div>
             </SplideSlide>
           </Splide>
-        </div>
+        </div> */}
         {/* end portfolio */}
 
         {/* quote */}
-        <div className="inline-flex flex-col justify-center items-center gap-10 mt-section w-full">
-          <div className="flex items-center gap-8">
-            <div className="text-quote w-9/12">MAKE AMAZING</div>
-            <img src={Quotes1} alt="quotes1" className="img-qoute w-3/12" />
+        <div className="inline-flex flex-col justify-center items-center gap-0 md:gap-2 sm:container mt-section w-full">
+          <div className="flex items-center gap-8 ">
+            <div className="w-full text-quote sm:w-9/12">MAKE AMAZING</div>
+            <img
+              src={Quotes1}
+              alt="quotes1"
+              className="hidden sm:block sm:img-qoute sm:w-3/12"
+            />
           </div>
-          <div className="flex items-center gap-8">
-            <img src={Quotes2} alt="quotes2" className="img-qoute w-3/12" />
-            <div className="text-quote w-9/12">IDEAS FOR YOU</div>
+          <div className="flex items-center gap-8 m-auto">
+            <img
+              src={Quotes2}
+              alt="quotes2"
+              className="hidden sm:block sm:img-qoute sm:w-3/12"
+            />
+            <div className="w-full text-quote sm:w-9/12">IDEAS FOR YOU</div>
           </div>
         </div>
         {/* end quote */}
@@ -222,22 +247,24 @@ export default function Home() {
         <div className="container mt-section">
           <div className="w-full sec-contactus relative">
             <div className="relative w-fit">
-              <div className="container text-header-contactus">CONTACT US</div>
+              <div className="px-4 sm:container text-header-contactus">
+                CONTACT US
+              </div>
               <div className="union-black">
-                <img src={UnionBlack} alt="union black" />
+                <img src={UnionBlack} alt="union black" className="w-2/4" />
               </div>
             </div>
-            <div className="absolute bottom-10 right-10 cursor-pointer">
+            <div className="absolute bottom-8 right-0 sm:bottom-10 sm:right-10 cursor-pointer">
               <div className="flex justify-center align-middle relative">
                 <img
                   src={ArrowUpRight}
                   alt="arrow up right"
-                  className="btn-contactus"
+                  className="btn-contactus w-4/12 md:w-5/12 lg:w-6/12"
                 />
                 <img
                   src={ContactUsImage}
                   alt="contact us"
-                  className="animate-spin img-spin"
+                  className="animate-spin img-spin w-8/12 md:w-10/12 lg:w-12/12 xl:w-fit"
                 />
               </div>
             </div>
