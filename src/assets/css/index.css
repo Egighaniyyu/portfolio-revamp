@@ -316,23 +316,24 @@
   z-index: 1000;
 }
 
-/* project page */
+/** project page */
+
 .title-page {
   color: #000;
   font-family: Poppins;
-  font-size: 80px;
+  font-size: 40px;
   font-style: normal;
   font-weight: 700;
-  line-height: 100%; /* 80px */
+  /* line-height: 100%;  */
 }
 
 .subtitle-page {
   color: #616161;
   font-family: Poppins;
-  font-size: 20px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 600;
-  line-height: normal;
+  /* line-height: normal; */
 }
 
 .project-menu {
@@ -346,7 +347,7 @@
 
   color: #000;
   font-family: Poppins;
-  font-size: 32px;
+  font-size: 20px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -361,20 +362,22 @@
 }
 
 /* design process pages */
+/* !edit */
 .title-design-process {
   color: #000;
   font-family: Poppins;
-  font-size: 20px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
   letter-spacing: 1px;
 }
 
+/* !edit */
 .big-qoute {
   color: #000;
   font-family: Poppins;
-  font-size: 32px;
+  font-size: 24px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -385,7 +388,7 @@
 .small-qoute-black {
   color: #000;
   font-family: Poppins;
-  font-size: 20px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -395,7 +398,7 @@
 .small-qoute-grey {
   color: #616161;
   font-family: Poppins;
-  font-size: 20px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -405,7 +408,7 @@
 .number-design-process {
   color: #0eb0f1;
   font-family: Poppins;
-  font-size: 32px;
+  font-size: 24px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -425,7 +428,7 @@
 .title-desc-design-process {
   color: #000;
   font-family: Poppins;
-  font-size: 20px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -435,7 +438,7 @@
 .desc-design-process {
   color: #616161;
   font-family: Poppins;
-  font-size: 16px;
+  font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;
@@ -445,6 +448,7 @@
 /* add media query */
 /* sm screen */
 @media (min-width: 640px) {
+  /* *home page */
   /* navbar */
   .header-logo {
     text-align: center;
@@ -498,10 +502,97 @@
     width: 34%;
   }
   /* end contact us */
+  /* *end home page */
+
+  /* *design process */
+  /* !edit */
+  .title-design-process {
+    color: #000;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1px;
+  }
+
+  /* !edit */
+  .big-qoute {
+    color: #000;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+  }
+
+  .small-qoute-black {
+    color: #000;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1px;
+  }
+
+  .small-qoute-grey {
+    color: #616161;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1px;
+  }
+
+  .number-design-process {
+    color: #0eb0f1;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+  }
+
+  .bg-number {
+    width: 40px;
+    height: 20px;
+    position: absolute;
+    right: -10px;
+    background: #b7eaff;
+    z-index: -1;
+  }
+
+  .title-desc-design-process {
+    color: #000;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1px;
+  }
+
+  .desc-design-process {
+    color: #616161;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.8px;
+  }
+  /* *end design process */
 }
 
 /* md screen */
 @media (min-width: 768px) {
+  /* *home page */
   /* jumbotron */
   .scroll-spin-image {
     left: 80% !important;
@@ -585,10 +676,51 @@
     width: 28%;
   }
   /* end contact us */
+  /* *end homepage */
+
+  /* *project page */
+  .title-page {
+    color: #000;
+    font-family: Poppins;
+    font-size: 56px;
+    font-style: normal;
+    font-weight: 700;
+    /* line-height: 100%;  */
+  }
+
+  .subtitle-page {
+    color: #616161;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    /* line-height: normal; */
+  }
+
+  .project-menu {
+    display: flex;
+    padding-bottom: 0px;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+
+    border-bottom: 1px solid #000;
+
+    color: #000;
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    width: 100%;
+  }
+  /* *end project page */
 }
 
 /* lg screen */
 @media (min-width: 1024px) {
+  /* *home page */
   /* jumbotron */
   .scroll-spin-image {
     left: 80% !important;
@@ -676,10 +808,23 @@
     width: 28%;
   }
   /* end contact us */
+  /* *end home page */
+
+  /* *project page */
+  .title-page {
+    color: #000;
+    font-family: Poppins;
+    font-size: 72px;
+    font-style: normal;
+    font-weight: 700;
+    /* line-height: 100%;  */
+  }
+  /* *end project page */
 }
 
 /* xl screen */
 @media (min-width: 1200px) {
+  /* *home page */
   /* jumbotron */
   .scroll-spin-image {
     left: 80% !important;
@@ -762,6 +907,46 @@
     width: 30%;
   }
   /* end contact us */
+  /* *end home page */
+
+  /* *project page */
+  .title-page {
+    color: #000;
+    font-family: Poppins;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    /* line-height: 100%;  */
+  }
+
+  .subtitle-page {
+    color: #616161;
+    font-family: Poppins;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    /* line-height: normal; */
+  }
+
+  .project-menu {
+    display: flex;
+    padding-bottom: 0px;
+    align-items: center;
+    gap: 10px;
+    align-self: stretch;
+
+    border-bottom: 1px solid #000;
+
+    color: #000;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+
+    width: 100%;
+  }
+  /* *end project page */
 }
 
 /* xxl screen */

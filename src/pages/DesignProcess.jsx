@@ -18,8 +18,8 @@ export default function DesignProcess() {
             <div className="title-design-process">001</div>
           </div>
 
-          <div className="flex justify-between items-start w-full mt-8">
-            <div className="w-4/12 pr-4">
+          <div className="flex flex-col md:flex-row sm:justify-between items-start w-full mt-8">
+            <div className="w-full md:w-4/12 pr-4">
               <div className="flex flex-col items-start gap-5">
                 <div className="big-qoute">
                   “Every project is different but will follow a basic process”
@@ -39,10 +39,10 @@ export default function DesignProcess() {
               </div>
             </div>
 
-            <div className="w-8/12 pl-4">
-              <div className="flex flex-col items-start gap-8">
-                <div className="flex items-start w-full">
-                  <div className="w-6/12 flex flex-col items-start gap-5 pr-4">
+            <div className="w-full md:w-8/12 md:pl-4">
+              <div className="flex flex-col items-start sm:gap-8">
+                <div className="flex flex-col sm:flex-row items-start w-full">
+                  <div className="w-full sm:w-6/12 flex flex-col items-start gap-5 pt-6 md:pt-0 pr-1 sm:pr-4">
                     <div className="flex flex-col items-start gap-2">
                       <div className="flex relative">
                         <div className="bg-number"></div>
@@ -62,7 +62,7 @@ export default function DesignProcess() {
                     </div>
                   </div>
 
-                  <div className="w-6/12 flex flex-col items-start gap-5 pl-4">
+                  <div className="w-full sm:w-6/12 flex flex-col items-start gap-5 pt-6 md:pt-0 pl-1 sm:pl-4">
                     <div className="flex flex-col items-start gap-2">
                       <div className="flex relative">
                         <div className="bg-number"></div>
@@ -83,8 +83,8 @@ export default function DesignProcess() {
                   </div>
                 </div>
 
-                <div className="flex items-start w-full">
-                  <div className="w-6/12 flex flex-col items-start gap-5 pr-4">
+                <div className="flex flex-col sm:flex-row items-start w-full">
+                  <div className="w-full sm:w-6/12 flex flex-col items-start gap-5 pt-6 pr-1 sm:pr-4">
                     <div className="flex flex-col items-start gap-2">
                       <div className="flex relative">
                         <div className="bg-number"></div>
@@ -103,7 +103,7 @@ export default function DesignProcess() {
                     </div>
                   </div>
 
-                  <div className="w-6/12 flex flex-col items-start gap-5 pl-4">
+                  <div className="w-full sm:w-6/12 flex flex-col items-start gap-5 pt-6 pl-1 sm:pl-4">
                     <div className="flex flex-col items-start gap-2">
                       <div className="flex relative">
                         <div className="bg-number"></div>
@@ -124,8 +124,8 @@ export default function DesignProcess() {
                   </div>
                 </div>
 
-                <div className="flex items-start w-full">
-                  <div className="w-6/12 flex flex-col items-start gap-5 pr-4">
+                <div className="flex flex-col sm:flex-row items-start w-full">
+                  <div className="w-full sm:w-6/12 flex flex-col items-start gap-5 pt-6 pr-1 sm:pr-4">
                     <div className="flex flex-col items-start gap-2">
                       <div className="flex relative">
                         <div className="bg-number"></div>
@@ -141,7 +141,7 @@ export default function DesignProcess() {
                     </div>
                   </div>
 
-                  <div className="w-6/12 flex flex-col items-start gap-5 pl-4">
+                  <div className="w-full sm:w-6/12 flex flex-col items-start gap-5 pt-6 pl-1 sm:pl-4">
                     <div className="flex flex-col items-start gap-2">
                       <div className="flex relative">
                         <div className="bg-number"></div>
@@ -169,8 +169,8 @@ export default function DesignProcess() {
             <div className="title-design-process">002</div>
           </div>
 
-          <div className="flex justify-between items-start w-full mt-8">
-            <div className="w-4/12 pr-4">
+          <div className="flex flex-col md:flex-row sm:justify-between items-start w-full mt-8">
+            <div className="w-full md:w-4/12 pr-4">
               <div className="flex flex-col items-start gap-5">
                 <div className="big-qoute">
                   How I like to collaborate & my work style
@@ -190,10 +190,10 @@ export default function DesignProcess() {
               </div>
             </div>
 
-            <div className="w-8/12 pl-4">
-              <div className="flex flex-col items-start gap-8">
-                <div className="flex items-start w-full">
-                  <div className="w-6/12 flex flex-col items-start gap-5 pr-4">
+            <div className="w-full md:w-8/12 md:pl-4">
+              <div className="flex flex-col items-start sm:gap-8">
+                <div className="flex flex-col sm:flex-row items-start w-full">
+                  <div className="w-full sm:w-6/12 flex flex-col items-start gap-5 pt-6 md:pt-0 pr-1 sm:pr-4">
                     <div className="flex flex-col items-start gap-2">
                       <div className="flex relative">
                         <div className="bg-number"></div>
@@ -214,7 +214,7 @@ export default function DesignProcess() {
                     </div>
                   </div>
 
-                  <div className="w-6/12 flex flex-col items-start gap-5 pl-4">
+                  <div className="w-full sm:w-6/12 flex flex-col items-start gap-5 pt-6 md:pt-0 pl-1 sm:pl-4">
                     <div className="flex flex-col items-start gap-2">
                       <div className="flex relative">
                         <div className="bg-number"></div>
