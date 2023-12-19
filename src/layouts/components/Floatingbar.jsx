@@ -151,37 +151,59 @@ const Floatingbar = () => {
         </div>
         <div className="border border-y-8"></div>
         <div className="w-4/12 flex flex-row">
-          <TooltipProvider>
-            <Tooltip>
-              <TooltipTrigger asChild>
-                <img
-                  src={ExternalLink}
-                  alt="external link"
-                  className="p-3 floating-icon"
-                />
-              </TooltipTrigger>
-              <TooltipContent className="backdrop-blur-lg bg-black bg-opacity-80 w-fit">
-                <div className="flex flex-col child-floating-nav">
-                  <a
-                    href="https://dribbble.com/egighaniyyu"
-                    target="_blank"
-                    className="text-center"
-                  >
-                    Dribbble
-                  </a>
-                  <a
-                    href="https://medium.com/@egighaniyyu"
-                    target="_blank"
-                    className="text-center"
-                  >
-                    Medium
-                  </a>
-                </div>
-              </TooltipContent>
-            </Tooltip>
-          </TooltipProvider>
+          <Popover>
+            <PopoverTrigger>
+              <img
+                src={ExternalLink}
+                alt="external link"
+                className="p-3 floating-icon"
+              />
+            </PopoverTrigger>
+            <PopoverContent className="backdrop-blur-lg bg-black bg-opacity-80 w-fit">
+              <div className="flex flex-col child-floating-nav">
+                <a
+                  href="https://dribbble.com/egighaniyyu"
+                  target="_blank"
+                  className="text-center"
+                >
+                  Dribbble
+                </a>
+                <a
+                  href="https://medium.com/@egighaniyyu"
+                  target="_blank"
+                  className="text-center"
+                >
+                  Medium
+                </a>
+              </div>
+            </PopoverContent>
+          </Popover>
 
-          <TooltipProvider>
+          <Popover>
+            <PopoverTrigger>
+              <img src={Contact} alt="contact" className="p-3 floating-icon" />
+            </PopoverTrigger>
+            <PopoverContent className="backdrop-blur-lg bg-black bg-opacity-80 w-fit">
+              <div className="flex flex-col child-floating-nav">
+                <a
+                  href="mailto:egighaniyyu@gmail.com"
+                  target="_blank"
+                  className="text-center"
+                >
+                  Email
+                </a>
+                <a
+                  href="https://www.instagram.com/egghny/"
+                  target="_blank"
+                  className="text-center"
+                >
+                  Instagram
+                </a>
+              </div>
+            </PopoverContent>
+          </Popover>
+
+          {/* <TooltipProvider>
             <Tooltip>
               <TooltipTrigger asChild>
                 <img
@@ -209,7 +231,7 @@ const Floatingbar = () => {
                 </div>
               </TooltipContent>
             </Tooltip>
-          </TooltipProvider>
+          </TooltipProvider> */}
         </div>
       </div>
     </>

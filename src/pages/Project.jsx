@@ -87,8 +87,16 @@ const Project = () => {
         <div className="flex pt-10 pb-24 md:pb-32 px-10 justify-between items-center w-full bg-black mt-20">
           <div className="footer-logo">EGIGHANIYYU</div>
           <div className="flex items-center gap-8">
-            <img src={DribbbleIcon} alt="dribbble" />
-            <img src={MediumIcon} alt="medium" />
+            <img
+              src={DribbbleIcon}
+              alt="dribbble"
+              className="w-7 h-7 md:w-10 md:h-10"
+            />
+            <img
+              src={MediumIcon}
+              alt="medium"
+              className="w-7 h-7 md:w-10 md:h-10"
+            />
           </div>
         </div>
       </Mainlayouts>
