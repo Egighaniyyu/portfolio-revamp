@@ -180,7 +180,7 @@ export default function Home() {
             </SplideSlide>
           </Splide>
         </div>
-        {/* <div className="mt-20">
+        <div className="mt-10">
           <Splide
             options={{
               type: "loop",
@@ -199,27 +199,43 @@ export default function Home() {
             className="swipe-portfolio"
           >
             <SplideSlide>
-              <div className="cursor-eye-portfolio">
-                <img src={Portfolio1} alt="portfolio1" />
-              </div>
+              {/* <div className="cursor-eye-portfolio"> */}
+              <img
+                src={Portfolio1}
+                alt="portfolio1"
+                className="w-8/12 h-auto lg:w-11/12"
+              />
+              {/* </div> */}
             </SplideSlide>
             <SplideSlide>
-              <div className="cursor-eye-portfolio">
-                <img src={Portfolio2} alt="portfolio2" />
-              </div>
+              {/* <div className="cursor-eye-portfolio "> */}
+              <img
+                src={Portfolio2}
+                alt="portfolio2"
+                className="w-8/12 h-auto lg:w-11/12"
+              />
+              {/* </div> */}
             </SplideSlide>
             <SplideSlide>
-              <div className="cursor-eye-portfolio">
-                <img src={Portfolio3} alt="portfolio3" />
-              </div>
+              {/* <div className="cursor-eye-portfolio "> */}
+              <img
+                src={Portfolio3}
+                alt="portfolio3"
+                className="w-8/12 h-auto lg:w-11/12"
+              />
+              {/* </div> */}
             </SplideSlide>
             <SplideSlide>
-              <div className="cursor-eye-portfolio">
-                <img src={Portfolio4} alt="portfolio4" />
-              </div>
+              {/* <div className="cursor-eye-portfolio "> */}
+              <img
+                src={Portfolio4}
+                alt="portfolio4"
+                className="w-8/12 h-auto lg:w-11/12"
+              />
+              {/* </div> */}
             </SplideSlide>
           </Splide>
-        </div> */}
+        </div>
         {/* end portfolio */}
 
         {/* quote */}
@@ -272,11 +288,19 @@ export default function Home() {
         </div>
         {/* end contact us */}
 
-        <div className="flex pt-32 pb-10 px-10 justify-between items-center w-full bg-black -mt-20">
+        <div className="flex pt-32 pb-28 md:pb-32 px-10 justify-between items-center w-full bg-black -mt-20">
           <div className="footer-logo">EGIGHANIYYU</div>
-          <div className="flex items-center gap-8">
-            <img src={DribbbleIcon} alt="dribbble" />
-            <img src={MediumIcon} alt="medium" />
+          <div className="flex items-center gap-4 sm:gap-8">
+            <img
+              src={DribbbleIcon}
+              alt="dribbble"
+              className="w-7 h-7 md:w-10 md:h-10"
+            />
+            <img
+              src={MediumIcon}
+              alt="medium"
+              className="w-7 h-7 md:w-10 md:h-10"
+            />
           </div>
         </div>
       </Mainlayouts>

@@ -84,7 +84,7 @@ const Project = () => {
           </div>
         </div>
 
-        <div className="flex py-10 px-10 justify-between items-center w-full bg-black mt-20">
+        <div className="flex pt-10 pb-24 md:pb-32 px-10 justify-between items-center w-full bg-black mt-20">
           <div className="footer-logo">EGIGHANIYYU</div>
           <div className="flex items-center gap-8">
             <img src={DribbbleIcon} alt="dribbble" />

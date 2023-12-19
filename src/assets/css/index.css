@@ -228,7 +228,7 @@
   color: #fff;
 
   font-family: Poppins;
-  font-size: 24px;
+  font-size: 16px;
   font-style: normal;
   font-weight: 600;
   line-height: normal;
@@ -240,12 +240,54 @@
 /* floating bar */
 .floating-bar-section {
   background: rgba(0, 0, 0, 0.8);
-  border-radius: 12px;
+  border-radius: 12px 12px 0px 0px;
+}
+
+.floating-menu button {
+  width: 100%;
+  text-align: left;
+}
+
+.floating-bar-section-mobile {
+  background: #1a1616;
+  border-radius: 8px;
+  padding: 12px 12px;
+
+  display: flex;
+  flex-direction: row;
+  align-items: start;
+  /* justify-content: center; */
+  gap: 12px;
+}
+
+.floating-nav-mobile {
+  color: #fff;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
 }
 
 .floating-nav {
   display: flex;
   padding: 14px 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+
+  color: #fff;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.floating-nav-tooltip {
+  display: flex;
+  padding: 8px 20px;
   justify-content: center;
   align-items: center;
   gap: 10px;
@@ -362,7 +404,6 @@
 }
 
 /* design process pages */
-/* !edit */
 .title-design-process {
   color: #000;
   font-family: Poppins;
@@ -373,7 +414,6 @@
   letter-spacing: 1px;
 }
 
-/* !edit */
 .big-qoute {
   color: #000;
   font-family: Poppins;
@@ -505,7 +545,7 @@
   /* *end home page */
 
   /* *design process */
-  /* !edit */
+
   .title-design-process {
     color: #000;
     font-family: Poppins;
@@ -516,7 +556,6 @@
     letter-spacing: 1px;
   }
 
-  /* !edit */
   .big-qoute {
     color: #000;
     font-family: Poppins;
@@ -588,6 +627,25 @@
     letter-spacing: 0.8px;
   }
   /* *end design process */
+
+  .floating-bar-section {
+    background: rgba(0, 0, 0, 0.8);
+    border-radius: 12px;
+  }
+
+  .footer-logo {
+    text-align: center;
+    color: #fff;
+
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: 1.2px;
+
+    user-select: none;
+  }
 }
 
 /* md screen */
