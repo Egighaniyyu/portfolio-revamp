@@ -16,6 +16,9 @@ import Portfolio1 from "../assets/images/portfolio1.png";
 import Portfolio2 from "../assets/images/portfolio2.png";
 import Portfolio3 from "../assets/images/portfolio3.png";
 import Portfolio4 from "../assets/images/portfolio4.png";
+import Portfolio5 from "../assets/images/portfolio5.png";
+import Portfolio6 from "../assets/images/portfolio6.png";
+import Portfolio7 from "../assets/images/portfolio7.png";
 import Quotes1 from "../assets/images/quotes1.png";
 import Quotes2 from "../assets/images/quotes2.png";
 import ContactUsImage from "../assets/images/img-contactus.png";
@@ -144,38 +147,107 @@ export default function Home() {
           >
             <SplideSlide>
               {/* <div className="cursor-eye-portfolio"> */}
-              <img
-                src={Portfolio1}
-                alt="portfolio1"
-                className="w-8/12 h-auto lg:w-11/12"
-              />
+              <a
+                href="https://medium.com/@egighaniyyu/ui-ux-case-study-menu-kabar-terbaru-kitabisa-com-b07d1c408c29"
+                target="_blank"
+                className="w-auto h-auto"
+              >
+                <img
+                  src={Portfolio5}
+                  alt="portfolio5"
+                  className="w-8/12 h-auto lg:w-11/12"
+                />
+              </a>
+              {/* </div> */}
+            </SplideSlide>
+            <SplideSlide>
+              {/* <div className="cursor-eye-portfolio"> */}
+              <a
+                href="https://egighaniyyu.notion.site/UI-UX-Case-Study-PWMP-Link-App-Revamp-17a8348f2a5945d3bede4fc6871f2a18?pvs=4"
+                target="_blank"
+                className="w-auto h-auto"
+              >
+                <img
+                  src={Portfolio6}
+                  alt="portfolio6"
+                  className="w-8/12 h-auto lg:w-11/12"
+                />
+              </a>
+              {/* </div> */}
+            </SplideSlide>
+            <SplideSlide>
+              {/* <div className="cursor-eye-portfolio"> */}
+              <a
+                href="https://idpods.co.id/"
+                target="_blank"
+                className="w-auto h-auto"
+              >
+                <img
+                  src={Portfolio1}
+                  alt="portfolio1"
+                  className="w-8/12 h-auto lg:w-11/12"
+                />
+              </a>
+              {/* </div> */}
+            </SplideSlide>
+            <SplideSlide>
+              {/* <div className="cursor-eye-portfolio"> */}
+              <a
+                href="https://dribbble.com/shots/22134409-SIM-RS-Medical-Dashboard"
+                target="_blank"
+                className="w-auto h-auto"
+              >
+                <img
+                  src={Portfolio7}
+                  alt="portfolio7"
+                  className="w-8/12 h-auto lg:w-11/12"
+                />
+              </a>
               {/* </div> */}
             </SplideSlide>
             <SplideSlide>
               {/* <div className="cursor-eye-portfolio "> */}
-              <img
-                src={Portfolio2}
-                alt="portfolio2"
-                className="w-8/12 h-auto lg:w-11/12"
-              />
+              <a
+                href="https://dribbble.com/shots/22088961-CashWave-Finance-Mobile-APP"
+                target="_blank"
+                className="w-auto h-auto"
+              >
+                <img
+                  src={Portfolio2}
+                  alt="portfolio2"
+                  className="w-8/12 h-auto lg:w-11/12"
+                />
+              </a>
               {/* </div> */}
             </SplideSlide>
             <SplideSlide>
               {/* <div className="cursor-eye-portfolio "> */}
-              <img
-                src={Portfolio3}
-                alt="portfolio3"
-                className="w-8/12 h-auto lg:w-11/12"
-              />
+              <a
+                href="https://dribbble.com/shots/22083501-SmartLiving-Smart-Home-Mobile-App"
+                target="_blank"
+                className="w-auto h-auto"
+              >
+                <img
+                  src={Portfolio3}
+                  alt="portfolio3"
+                  className="w-8/12 h-auto lg:w-11/12"
+                />
+              </a>
               {/* </div> */}
             </SplideSlide>
             <SplideSlide>
               {/* <div className="cursor-eye-portfolio "> */}
-              <img
-                src={Portfolio4}
-                alt="portfolio4"
-                className="w-8/12 h-auto lg:w-11/12"
-              />
+              <a
+                href="https://dribbble.com/shots/19903136-Weather-App"
+                target="_blank"
+                className="w-auto h-auto"
+              >
+                <img
+                  src={Portfolio4}
+                  alt="portfolio4"
+                  className="w-8/12 h-auto lg:w-11/12"
+                />
+              </a>
               {/* </div> */}
             </SplideSlide>
           </Splide>
@@ -200,38 +272,62 @@ export default function Home() {
           >
             <SplideSlide>
               {/* <div className="cursor-eye-portfolio"> */}
-              <img
-                src={Portfolio1}
-                alt="portfolio1"
-                className="w-8/12 h-auto lg:w-11/12"
-              />
+              <a
+                href="https://idpods.co.id/"
+                target="_blank"
+                className="w-auto h-auto"
+              >
+                <img
+                  src={Portfolio1}
+                  alt="portfolio1"
+                  className="w-8/12 h-auto lg:w-11/12"
+                />
+              </a>
               {/* </div> */}
             </SplideSlide>
             <SplideSlide>
               {/* <div className="cursor-eye-portfolio "> */}
-              <img
-                src={Portfolio2}
-                alt="portfolio2"
-                className="w-8/12 h-auto lg:w-11/12"
-              />
+              <a
+                href="https://dribbble.com/shots/22088961-CashWave-Finance-Mobile-APP"
+                target="_blank"
+                className="w-auto h-auto"
+              >
+                <img
+                  src={Portfolio2}
+                  alt="portfolio2"
+                  className="w-8/12 h-auto lg:w-11/12"
+                />
+              </a>
               {/* </div> */}
             </SplideSlide>
             <SplideSlide>
               {/* <div className="cursor-eye-portfolio "> */}
-              <img
-                src={Portfolio3}
-                alt="portfolio3"
-                className="w-8/12 h-auto lg:w-11/12"
-              />
+              <a
+                href="https://dribbble.com/shots/22083501-SmartLiving-Smart-Home-Mobile-App"
+                target="_blank"
+                className="w-auto h-auto"
+              >
+                <img
+                  src={Portfolio3}
+                  alt="portfolio3"
+                  className="w-8/12 h-auto lg:w-11/12"
+                />
+              </a>
               {/* </div> */}
             </SplideSlide>
             <SplideSlide>
               {/* <div className="cursor-eye-portfolio "> */}
-              <img
-                src={Portfolio4}
-                alt="portfolio4"
-                className="w-8/12 h-auto lg:w-11/12"
-              />
+              <a
+                href="https://dribbble.com/shots/19903136-Weather-App"
+                target="_blank"
+                className="w-auto h-auto"
+              >
+                <img
+                  src={Portfolio4}
+                  alt="portfolio4"
+                  className="w-8/12 h-auto lg:w-11/12"
+                />
+              </a>
               {/* </div> */}
             </SplideSlide>
           </Splide>

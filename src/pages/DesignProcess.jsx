@@ -8,7 +8,7 @@ export default function DesignProcess() {
     <>
       <Mainlayouts>
         <div className="container">
-          <div className="flex flex-col items-start gap-5">
+          <div className="flex flex-col items-start gap-2">
             <div className="title-page">DESIGN PROCESS</div>
             <div className="subtitle-page">FROM CONCEPT TO CREATION</div>
           </div>

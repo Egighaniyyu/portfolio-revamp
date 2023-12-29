@@ -6,7 +6,7 @@ import MediumIcon from "../assets/images/medium.svg";
 
 const Project = () => {
   const [portfolioImage, setPortfolioImage] = useState(
-    "/public/images/portfolio1.png"
+    "/images/portfolio5.png"
   );
   const [lastHoveredImage, setLastHoveredImage] = useState("");
 
@@ -21,22 +21,37 @@ const Project = () => {
 
   const projects = [
     {
-      title: "IDPods E-Commerce",
+      title: "Case Study : Kitabisa Revamp",
+      link: "https://medium.com/@egighaniyyu/ui-ux-case-study-menu-kabar-terbaru-kitabisa-com-b07d1c408c29",
+      image: "/images/portfolio5.png",
+    },
+    {
+      title: "Case Study : PWMP Link Redesign",
+      link: "https://egighaniyyu.notion.site/UI-UX-Case-Study-PWMP-Link-App-Revamp-17a8348f2a5945d3bede4fc6871f2a18?pvs=4",
+      image: "/images/portfolio6.png",
+    },
+    {
+      title: "Project : IDPods E-Commerce",
       link: "https://idpods.co.id/",
       image: "/images/portfolio1.png",
     },
     {
-      title: "Finance Mobile Apps",
+      title: "UI Design : SIM-RS | Medical Dashboard",
+      link: "https://dribbble.com/shots/22134409-SIM-RS-Medical-Dashboard",
+      image: "/images/portfolio7.png",
+    },
+    {
+      title: "UI Design : Finance Mobile Apps",
       link: "https://dribbble.com/shots/22088961-CashWave-Finance-Mobile-APP",
       image: "/images/portfolio2.png",
     },
     {
-      title: "Smart Home Mobile Apps",
+      title: "UI Design : Smart Home Mobile Apps",
       link: "https://dribbble.com/shots/22083501-SmartLiving-Smart-Home-Mobile-App",
       image: "/images/portfolio3.png",
     },
     {
-      title: "Weather Mobile Apps",
+      title: "UI Design : Weather Mobile Apps",
       link: "https://dribbble.com/shots/19903136-Weather-App",
       image: "/images/portfolio4.png",
     },
@@ -48,7 +63,7 @@ const Project = () => {
         <div className="px-4 sm:container flex flex-col sm:flex-row justify-between items-center w-full mb-10">
           <div className="w-full sm:w-5/12">
             <div className="flex flex-col items-start w-full gap-8 sm:gap-16">
-              <div className="flex flex-col items-start gap-0 md:gap-3 lg:gap-4 xl:gap-5">
+              <div className="flex flex-col items-start gap-2">
                 <div className="title-page">PROJECT</div>
                 <div className="subtitle-page">CREATIVITY IN EVERY CLICK</div>
               </div>
