@@ -255,7 +255,7 @@
 
   display: flex;
   flex-direction: row;
-  align-items: start;
+  /* align-items: start; */
   /* justify-content: center; */
   gap: 12px;
 }
@@ -289,7 +289,7 @@
   display: flex;
   padding: 8px 20px;
   justify-content: center;
-  align-items: center;
+  align-items: left;
   gap: 10px;
   border-radius: 8px;
 
@@ -772,6 +772,48 @@
     line-height: normal;
 
     width: 100%;
+  }
+
+  .tag.case-study {
+    color: #0eb0f1;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    background-color: #cefdfe;
+
+    padding: 8px 16px;
+    border-radius: 8px;
+  }
+
+  .tag.ui-design {
+    color: #81b509;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    background-color: #f2fbcb;
+
+    padding: 8px 16px;
+    border-radius: 8px;
+  }
+
+  .tag.ux-design {
+    color: #ffd016;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    background-color: #fff9d0;
+
+    padding: 8px 16px;
+    border-radius: 8px;
   }
   /* *end project page */
 }
