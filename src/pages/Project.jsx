@@ -1,12 +1,13 @@
 import React, { useState } from "react";
 import Mainlayouts from "../layouts/Mainlayouts";
 
+import LinkedInIcon from "../assets/images/linkedin.svg";
 import DribbbleIcon from "../assets/images/dribbble.svg";
 import MediumIcon from "../assets/images/medium.svg";
 
 const Project = () => {
   const [portfolioImage, setPortfolioImage] = useState(
-    "/images/portfolio5.png"
+    "/images/portfolio8.svg"
   );
   const [lastHoveredImage, setLastHoveredImage] = useState("");
 
@@ -20,6 +21,25 @@ const Project = () => {
   };
 
   const projects = [
+    {
+      title: "Development : Meny Finance Landing Page",
+      link: "https://menyfinance.framer.website/",
+      image: "/images/portfolio8.svg",
+      tag: [
+        {
+          title: "Framer",
+          class: "framer",
+        },
+        {
+          title: "UI Design",
+          class: "ui-design",
+        },
+        {
+          title: "UX Design",
+          class: "ux-design",
+        },
+      ],
+    },
     {
       title: "Case Study : Kitabisa Revamp",
       link: "https://medium.com/@egighaniyyu/ui-ux-case-study-menu-kabar-terbaru-kitabisa-com-b07d1c408c29",
@@ -184,16 +204,27 @@ const Project = () => {
         <div className="flex pt-10 pb-24 md:pb-32 px-10 justify-between items-center w-full bg-black mt-20">
           <div className="footer-logo">EGIGHANIYYU</div>
           <div className="flex items-center gap-8">
-            <img
-              src={DribbbleIcon}
-              alt="dribbble"
-              className="w-7 h-7 md:w-10 md:h-10"
-            />
-            <img
-              src={MediumIcon}
-              alt="medium"
-              className="w-7 h-7 md:w-10 md:h-10"
-            />
+            <a href="https://www.linkedin.com/in/egighaniyyu/" target="_blank">
+              <img
+                src={LinkedInIcon}
+                alt="linkedin"
+                className="w-7 h-7 md:w-10 md:h-10"
+              />
+            </a>
+            <a href="https://dribbble.com/egighaniyyu" target="_blank">
+              <img
+                src={DribbbleIcon}
+                alt="dribbble"
+                className="w-7 h-7 md:w-10 md:h-10"
+              />
+            </a>
+            <a href="https://medium.com/@egighaniyyu" target="_blank">
+              <img
+                src={MediumIcon}
+                alt="medium"
+                className="w-7 h-7 md:w-10 md:h-10"
+              />
+            </a>
           </div>
         </div>
       </Mainlayouts>

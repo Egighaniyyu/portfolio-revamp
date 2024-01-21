@@ -82,6 +82,13 @@ const Floatingbar = () => {
             <TooltipContent className="backdrop-blur-lg bg-black bg-opacity-80 w-fit">
               <div className="flex flex-col child-floating-nav">
                 <a
+                  href="https://www.linkedin.com/in/egighaniyyu/"
+                  target="_blank"
+                  className="text-center"
+                >
+                  LinkedIn
+                </a>
+                <a
                   href="https://dribbble.com/egighaniyyu"
                   target="_blank"
                   className="text-center"
@@ -162,6 +169,13 @@ const Floatingbar = () => {
             <PopoverContent className="backdrop-blur-lg bg-black bg-opacity-80 w-fit">
               <div className="flex flex-col child-floating-nav">
                 <a
+                  href="https://www.linkedin.com/in/egighaniyyu/"
+                  target="_blank"
+                  className="text-center"
+                >
+                  LinkedIn
+                </a>
+                <a
                   href="https://dribbble.com/egighaniyyu"
                   target="_blank"
                   className="text-center"
@@ -202,36 +216,6 @@ const Floatingbar = () => {
               </div>
             </PopoverContent>
           </Popover>
-
-          {/* <TooltipProvider>
-            <Tooltip>
-              <TooltipTrigger asChild>
-                <img
-                  src={Contact}
-                  alt="contact"
-                  className="p-3 floating-icon"
-                />
-              </TooltipTrigger>
-              <TooltipContent className="backdrop-blur-lg bg-black bg-opacity-80 w-fit">
-                <div className="flex flex-col child-floating-nav">
-                  <a
-                    href="mailto:egighaniyyu@gmail.com"
-                    target="_blank"
-                    className="text-center"
-                  >
-                    Email
-                  </a>
-                  <a
-                    href="https://www.instagram.com/egghny/"
-                    target="_blank"
-                    className="text-center"
-                  >
-                    Instagram
-                  </a>
-                </div>
-              </TooltipContent>
-            </Tooltip>
-          </TooltipProvider> */}
         </div>
       </div>
     </>

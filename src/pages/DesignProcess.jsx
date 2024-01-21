@@ -1,5 +1,6 @@
 import React from "react";
 import Mainlayouts from "../layouts/Mainlayouts";
+import LinkedInIcon from "../assets/images/linkedin.svg";
 import DribbbleIcon from "../assets/images/dribbble.svg";
 import MediumIcon from "../assets/images/medium.svg";
 
@@ -243,16 +244,27 @@ export default function DesignProcess() {
         <div className="flex pt-10 pb-24 md:pb-32 px-10 justify-between items-center w-full bg-black mt-20">
           <div className="footer-logo">EGIGHANIYYU</div>
           <div className="flex items-center gap-8">
-            <img
-              src={DribbbleIcon}
-              alt="dribbble"
-              className="w-7 h-7 md:w-10 md:h-10"
-            />
-            <img
-              src={MediumIcon}
-              alt="medium"
-              className="w-7 h-7 md:w-10 md:h-10"
-            />
+            <a href="https://www.linkedin.com/in/egighaniyyu/" target="_blank">
+              <img
+                src={LinkedInIcon}
+                alt="linkedin"
+                className="w-7 h-7 md:w-10 md:h-10"
+              />
+            </a>
+            <a href="https://dribbble.com/egighaniyyu" target="_blank">
+              <img
+                src={DribbbleIcon}
+                alt="dribbble"
+                className="w-7 h-7 md:w-10 md:h-10"
+              />
+            </a>
+            <a href="https://medium.com/@egighaniyyu" target="_blank">
+              <img
+                src={MediumIcon}
+                alt="medium"
+                className="w-7 h-7 md:w-10 md:h-10"
+              />
+            </a>
           </div>
         </div>
       </Mainlayouts>

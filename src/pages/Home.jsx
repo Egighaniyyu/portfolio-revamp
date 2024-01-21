@@ -19,10 +19,12 @@ import Portfolio4 from "../assets/images/portfolio4.png";
 import Portfolio5 from "../assets/images/portfolio5.png";
 import Portfolio6 from "../assets/images/portfolio6.png";
 import Portfolio7 from "../assets/images/portfolio7.png";
+import Portfolio8 from "../assets/images/portfolio8.svg";
 import Quotes1 from "../assets/images/quotes1.png";
 import Quotes2 from "../assets/images/quotes2.png";
 import ContactUsImage from "../assets/images/img-contactus.png";
 import ArrowUpRight from "../assets/images/arrow-up-right.svg";
+import LinkedInIcon from "../assets/images/linkedin.svg";
 import DribbbleIcon from "../assets/images/dribbble.svg";
 import MediumIcon from "../assets/images/medium.svg";
 
@@ -145,6 +147,21 @@ export default function Home() {
             extensions={{ AutoScroll }}
             className="swipe-portfolio"
           >
+            <SplideSlide>
+              {/* <div className="cursor-eye-portfolio"> */}
+              <a
+                href="https://menyfinance.framer.website/"
+                target="_blank"
+                className="w-auto h-auto"
+              >
+                <img
+                  src={Portfolio8}
+                  alt="portfolio8"
+                  className="w-8/12 h-auto lg:w-11/12"
+                />
+              </a>
+              {/* </div> */}
+            </SplideSlide>
             <SplideSlide>
               {/* <div className="cursor-eye-portfolio"> */}
               <a
@@ -273,6 +290,21 @@ export default function Home() {
             <SplideSlide>
               {/* <div className="cursor-eye-portfolio"> */}
               <a
+                href="https://menyfinance.framer.website/"
+                target="_blank"
+                className="w-auto h-auto"
+              >
+                <img
+                  src={Portfolio8}
+                  alt="portfolio8"
+                  className="w-8/12 h-auto lg:w-11/12"
+                />
+              </a>
+              {/* </div> */}
+            </SplideSlide>
+            <SplideSlide>
+              {/* <div className="cursor-eye-portfolio"> */}
+              <a
                 href="https://idpods.co.id/"
                 target="_blank"
                 className="w-auto h-auto"
@@ -387,16 +419,27 @@ export default function Home() {
         <div className="flex pt-32 pb-28 md:pb-32 px-10 justify-between items-center w-full bg-black -mt-20">
           <div className="footer-logo">EGIGHANIYYU</div>
           <div className="flex items-center gap-4 sm:gap-8">
-            <img
-              src={DribbbleIcon}
-              alt="dribbble"
-              className="w-7 h-7 md:w-10 md:h-10"
-            />
-            <img
-              src={MediumIcon}
-              alt="medium"
-              className="w-7 h-7 md:w-10 md:h-10"
-            />
+            <a href="https://www.linkedin.com/in/egighaniyyu/" target="_blank">
+              <img
+                src={LinkedInIcon}
+                alt="linkedin"
+                className="w-7 h-7 md:w-10 md:h-10"
+              />
+            </a>
+            <a href="https://dribbble.com/egighaniyyu" target="_blank">
+              <img
+                src={DribbbleIcon}
+                alt="dribbble"
+                className="w-7 h-7 md:w-10 md:h-10"
+              />
+            </a>
+            <a href="https://medium.com/@egighaniyyu" target="_blank">
+              <img
+                src={MediumIcon}
+                alt="medium"
+                className="w-7 h-7 md:w-10 md:h-10"
+              />
+            </a>
           </div>
         </div>
       </Mainlayouts>

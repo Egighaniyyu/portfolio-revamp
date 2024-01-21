@@ -815,6 +815,20 @@
     padding: 8px 16px;
     border-radius: 8px;
   }
+
+  .tag.framer {
+    color: #6601fe;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+
+    background-color: #e8ccfe;
+
+    padding: 8px 16px;
+    border-radius: 8px;
+  }
   /* *end project page */
 }
 
