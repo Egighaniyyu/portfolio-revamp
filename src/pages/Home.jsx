@@ -73,6 +73,9 @@ export default function Home() {
             <div className="w-full flex justify-center items-center self-start border-b border-solid border-black sec-services">
               <div className="text-services text-center">UI ENGINEER</div>
             </div>
+            <div className="w-full flex justify-center items-center self-start border-b border-solid border-black sec-services">
+              <div className="text-services text-center">FRAMER DESIGNER</div>
+            </div>
           </div>
         </div>
         {/* end services */}
@@ -110,6 +113,12 @@ export default function Home() {
             </SplideSlide>
             <SplideSlide>
               <div className="text-swipe-services">UI ENGINEER</div>
+            </SplideSlide>
+            <SplideSlide>
+              <img src={UnionWhite} alt="union wihite" />
+            </SplideSlide>
+            <SplideSlide>
+              <div className="text-swipe-services">FRAMER DESIGNER</div>
             </SplideSlide>
             <SplideSlide>
               <img src={UnionWhite} alt="union wihite" />
