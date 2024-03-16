@@ -7,7 +7,7 @@ import MediumIcon from "../assets/images/medium.svg";
 
 const Project = () => {
   const [portfolioImage, setPortfolioImage] = useState(
-    "/images/portfolio8.svg"
+    "/images/portfolio5.png"
   );
   const [lastHoveredImage, setLastHoveredImage] = useState("");
 
@@ -22,13 +22,13 @@ const Project = () => {
 
   const projects = [
     {
-      title: "Development : Meny Finance Landing Page",
-      link: "https://menyfinance.framer.website/",
-      image: "/images/portfolio8.svg",
+      title: "Case Study : Kitabisa Revamp",
+      link: "/detail-project/ui-ux-case-study-menu-kabar-terbaru-kitabisa-com",
+      image: "/images/portfolio5.png",
       tag: [
         {
-          title: "Framer",
-          class: "framer",
+          title: "Case Study",
+          class: "case-study",
         },
         {
           title: "UI Design",
@@ -41,13 +41,13 @@ const Project = () => {
       ],
     },
     {
-      title: "Case Study : Kitabisa Revamp",
-      link: "https://medium.com/@egighaniyyu/ui-ux-case-study-menu-kabar-terbaru-kitabisa-com-b07d1c408c29",
-      image: "/images/portfolio5.png",
+      title: "Development : Meny Finance Landing Page",
+      link: "https://menyfinance.framer.website/",
+      image: "/images/portfolio8.svg",
       tag: [
         {
-          title: "Case Study",
-          class: "case-study",
+          title: "Framer",
+          class: "framer",
         },
         {
           title: "UI Design",

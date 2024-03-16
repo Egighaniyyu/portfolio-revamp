@@ -174,7 +174,7 @@ export default function Home() {
             <SplideSlide>
               {/* <div className="cursor-eye-portfolio"> */}
               <a
-                href="https://medium.com/@egighaniyyu/ui-ux-case-study-menu-kabar-terbaru-kitabisa-com-b07d1c408c29"
+                href="/detail-project/ui-ux-case-study-menu-kabar-terbaru-kitabisa-com"
                 target="_blank"
                 className="w-auto h-auto"
               >
