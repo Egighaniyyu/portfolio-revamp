@@ -8,8 +8,8 @@ const Mouseball = () => {
     // Initialize GSAP and set initial ball position
     const ball = ballRef.current;
     gsap.set(ball, {
-      left: -25,
-      top: -25,
+      left: -10,
+      top: -10,
       // ease: Elastic.easeOut.config(1, 0.75),
     });
 
@@ -25,7 +25,7 @@ const Mouseball = () => {
       });
 
       if (e.target.classList == "header-title") {
-        gsap.quickTo(ball, 0.3, { width: 100, height: 100 });
+        gsap.quickTo(ball, 0.3, { width: 10, height: 10 });
       } else {
         gsap.quickTo(ball, 0.3, { width: 50, height: 50 });
       }

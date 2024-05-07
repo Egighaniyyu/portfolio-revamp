@@ -8,10 +8,10 @@ export default function Mainlayouts({ children }) {
   return (
     <>
       <main>
+        <Floatingbar />
         <Mouseball />
         <Navbar />
         {children}
-        <Floatingbar />
       </main>
     </>
   );
