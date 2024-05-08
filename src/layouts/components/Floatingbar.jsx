@@ -1,17 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { NavLink, useLocation } from "react-router-dom";
 
-import ExternalLink from "../../assets/images/externallink.svg";
-import Contact from "../../assets/images/contact.svg";
-import Menu from "../../assets/images/menu.svg";
-
-import {
-  Tooltip,
-  TooltipContent,
-  TooltipProvider,
-  TooltipTrigger,
-} from "@/components/ui/tooltip";
-
 import {
   NavigationMenu,
   NavigationMenuContent,
@@ -43,32 +32,12 @@ import {
   CollapsibleTrigger,
 } from "@/components/ui/collapsible";
 
-import {
-  Popover,
-  PopoverContent,
-  PopoverTrigger,
-} from "@/components/ui/popover";
-
 const Floatingbar = () => {
   const [activeText, setActiveText] = useState("MENU");
   const location = useLocation();
 
   useEffect(() => {
-    // Callback ini akan dipanggil setiap kali URL berubah
-    switch (location.pathname) {
-      case "/":
-        setActiveText("HOME");
-        break;
-      case "/project":
-        setActiveText("PROJECT");
-        break;
-      case "/design-process":
-        setActiveText("DESIGN PROCESS");
-        break;
-      default:
-        setActiveText("MENU");
-        break;
-    }
+    window.scrollTo(0, 0);
   }, [location.pathname]); // Memastikan efek ini hanya dipanggil saat location.pathname berubah
 
   const [linkImage, setLinkImage] = useState("/images/dribbble-navbar.png");
