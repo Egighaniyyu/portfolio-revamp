@@ -21,7 +21,7 @@ body {
 /* navbar */
 .header-logo {
   /* text-align: center; */
-  color: #000;
+  color: #212121;
 
   font-family: Poppins;
   font-size: 16px;
@@ -71,7 +71,7 @@ body {
 }
 
 .text-services {
-  /* color: #000; */
+  /* color: #212121; */
 
   transition: ease-out;
   transition-duration: 0.3s;
@@ -151,7 +151,7 @@ body {
 
 /* portfolio */
 .portfolio-title {
-  color: #000;
+  color: #212121;
 
   font-family: Poppins;
   font-size: 40px;
@@ -188,7 +188,7 @@ body {
 
 /* quote */
 .text-quote {
-  color: #000;
+  color: #212121;
   font-family: Poppins;
   font-size: 44px;
   font-style: normal;
@@ -370,13 +370,13 @@ body {
   opacity: 50%;
   border-radius: 50%;
   pointer-events: none;
-  z-index: 1000;
+  z-index: 1212121;
 }
 
 /** project page */
 
 .title-page {
-  color: #000;
+  color: #212121;
   font-family: Poppins;
   font-size: 40px;
   font-style: normal;
@@ -400,9 +400,9 @@ body {
   gap: 10px;
   align-self: stretch;
 
-  border-bottom: 1px solid #000;
+  border-bottom: 1px solid #212121;
 
-  color: #000;
+  color: #212121;
   font-family: Poppins;
   font-size: 20px;
   font-style: normal;
@@ -420,7 +420,7 @@ body {
 
 /* design process pages */
 .title-design-process {
-  color: #000;
+  color: #212121;
   font-family: Poppins;
   font-size: 16px;
   font-style: normal;
@@ -430,7 +430,7 @@ body {
 }
 
 .big-qoute {
-  color: #000;
+  color: #212121;
   font-family: Poppins;
   font-size: 24px;
   font-style: normal;
@@ -441,7 +441,7 @@ body {
 }
 
 .small-qoute-black {
-  color: #000;
+  color: #212121;
   font-family: Poppins;
   font-size: 16px;
   font-style: normal;
@@ -481,7 +481,7 @@ body {
 }
 
 .title-desc-design-process {
-  color: #000;
+  color: #212121;
   font-family: Poppins;
   font-size: 16px;
   font-style: normal;
@@ -522,7 +522,7 @@ body {
 }
 
 .desc-detail-project .subtitle {
-  color: #000;
+  color: #212121;
   font-family: Poppins;
   font-size: 24px;
   font-style: normal;
@@ -531,11 +531,11 @@ body {
 }
 
 .desc-detail-project .desc {
-  color: #616161;
+  color: #212121;
   font-family: Poppins;
   font-size: 16px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 400;
   line-height: normal;
   letter-spacing: 1px;
 }
@@ -547,7 +547,7 @@ body {
 }
 
 .title-detail-project {
-  color: #000;
+  color: #212121;
   font-family: Poppins;
   font-size: 28px;
   font-style: normal;
@@ -574,7 +574,7 @@ body {
 
   /* navbar */
   .header-logo {
-    color: #000;
+    color: #212121;
 
     font-family: Poppins;
     font-size: 24px;
@@ -629,7 +629,7 @@ body {
   /* *design process */
 
   .title-design-process {
-    color: #000;
+    color: #212121;
     font-family: Poppins;
     font-size: 20px;
     font-style: normal;
@@ -639,7 +639,7 @@ body {
   }
 
   .big-qoute {
-    color: #000;
+    color: #212121;
     font-family: Poppins;
     font-size: 32px;
     font-style: normal;
@@ -650,7 +650,7 @@ body {
   }
 
   .small-qoute-black {
-    color: #000;
+    color: #212121;
     font-family: Poppins;
     font-size: 20px;
     font-style: normal;
@@ -690,7 +690,7 @@ body {
   }
 
   .title-desc-design-process {
-    color: #000;
+    color: #212121;
     font-family: Poppins;
     font-size: 20px;
     font-style: normal;
@@ -742,7 +742,7 @@ body {
   }
 
   .text-services {
-    /* color: #000; */
+    /* color: #212121; */
 
     transition: ease-out;
     transition-duration: 0.3s;
@@ -768,7 +768,7 @@ body {
 
   /* portfolio */
   .portfolio-title {
-    color: #000;
+    color: #212121;
 
     font-family: Poppins;
     font-size: 56px;
@@ -780,7 +780,7 @@ body {
 
   /* quote */
   .text-quote {
-    color: #000;
+    color: #212121;
     font-family: Poppins;
     font-size: 60px;
     font-style: normal;
@@ -816,7 +816,7 @@ body {
 
   /* *project page */
   .title-page {
-    color: #000;
+    color: #212121;
     font-family: Poppins;
     font-size: 56px;
     font-style: normal;
@@ -840,9 +840,9 @@ body {
     gap: 10px;
     align-self: stretch;
 
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #212121;
 
-    color: #000;
+    color: #212121;
     font-family: Poppins;
     font-size: 28px;
     font-style: normal;
@@ -926,7 +926,7 @@ body {
   }
 
   .text-services {
-    /* color: #000; */
+    /* color: #212121; */
 
     transition: ease-out;
     transition-duration: 0.3s;
@@ -956,7 +956,7 @@ body {
 
   /* portfolio */
   .portfolio-title {
-    color: #000;
+    color: #212121;
 
     font-family: Poppins;
     font-size: 72px;
@@ -973,7 +973,7 @@ body {
 
   /* quote */
   .text-quote {
-    color: #000;
+    color: #212121;
     font-family: Poppins;
     font-size: 80px;
     font-style: normal;
@@ -1004,7 +1004,7 @@ body {
 
   /* *project page */
   .title-page {
-    color: #000;
+    color: #212121;
     font-family: Poppins;
     font-size: 72px;
     font-style: normal;
@@ -1030,7 +1030,7 @@ body {
   }
 
   .text-services {
-    /* color: #000; */
+    /* color: #212121; */
 
     transition: ease-out;
     transition-duration: 0.3s;
@@ -1060,7 +1060,7 @@ body {
 
   /* portfolio */
   .portfolio-title {
-    color: #000;
+    color: #212121;
 
     font-family: Poppins;
     font-size: 80px;
@@ -1072,7 +1072,7 @@ body {
 
   /* quote */
   .text-quote {
-    color: #000;
+    color: #212121;
     font-family: Poppins;
     font-size: 100px;
     font-style: normal;
@@ -1103,7 +1103,7 @@ body {
 
   /* *project page */
   .title-page {
-    color: #000;
+    color: #212121;
     font-family: Poppins;
     font-size: 80px;
     font-style: normal;
@@ -1127,9 +1127,9 @@ body {
     gap: 10px;
     align-self: stretch;
 
-    border-bottom: 1px solid #000;
+    border-bottom: 1px solid #212121;
 
-    color: #000;
+    color: #212121;
     font-family: Poppins;
     font-size: 32px;
     font-style: normal;
@@ -1142,9 +1142,9 @@ body {
 
   /* detail project */
   .title-detail-project {
-    color: #000;
+    color: #212121;
     font-family: Poppins;
-    font-size: 64px;
+    font-size: 180px;
     font-style: normal;
     font-weight: 600;
     /* line-height: 100%;  */
@@ -1153,6 +1153,7 @@ body {
   .img-full img {
     width: 100%;
     height: auto;
+    margin: auto;
   }
 
   .desc-detail-project {
@@ -1162,7 +1163,7 @@ body {
   }
 
   .desc-detail-project .subtitle {
-    color: #000;
+    color: #212121;
     font-family: Poppins;
     font-size: 32px;
     font-style: normal;

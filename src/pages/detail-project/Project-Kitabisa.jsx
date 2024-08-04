@@ -14,35 +14,91 @@ const ProjectKitabisa = () => {
             <div className="breadcrumb">Project</div>
             <div className="breadcrumb">&gt;</div>
             <div className="breadcrumb breadcrumb-active">
-              UI/UX Case Study : Menu Kabar Terbaru Kitabisa.com
+              UI/UX Case Study : Revamp Menu Kabar Terbaru Kitabisa.com
             </div>
           </div>
-          <div className="container md:mx-auto md:px-40 title-detail-project">
-            UI/UX Case Study : Menu Kabar Terbaru Kitabisa.com
+          <div className="banner-casestudy py-10 bg-[#1DBAF4]">
+            <div className="container md:px-40 flex flex-col">
+              <h1 className="title-detail-project text-center text-white">
+                KITABISA
+              </h1>
+              <div className="img-full flex -mt-28">
+                <img
+                  src="/kitabisa_assets/banner-bgwhite.jpg"
+                  alt="portfolio5"
+                  className="opacity-[0.9]"
+                />
+              </div>
+              <div className="flex flex-row mt-4 h-fit w-full">
+                <div className="flex w-5/12 flex-col gap-4">
+                  <div className="flex flex-col w-full">
+                    <p className="text-[#D1FEFE] font-medium">Type</p>
+                    <p className="text-white font-medium">Intern</p>
+                  </div>
+                  <div className="flex flex-col w-full">
+                    <p className="text-[#D1FEFE] font-medium">Role</p>
+                    <p className="text-white font-medium">
+                      Research, Wireframing, UI Design, Prototyping, Usability
+                      Testing.
+                    </p>
+                  </div>
+                  <div className="flex flex-col w-full">
+                    <p className="text-[#D1FEFE] font-medium">Platform</p>
+                    <p className="text-white font-medium">Mobile</p>
+                  </div>
+                  <div className="flex flex-col w-full">
+                    <p className="text-[#D1FEFE] font-medium">Tools</p>
+                    <p className="text-white font-medium">
+                      Figma, Figjam, Spreadsheet, Docs, Google Meet
+                    </p>
+                  </div>
+                </div>
+                <div className="flex flex-col w-full gap-0 justify-between items-end">
+                  <h1 className="text-5xl font-medium text-white leading-[56px]">
+                    UI/UX Case Study : Menu Kabar Terbaru Kitabisa.com
+                  </h1>
+                  <a
+                    href="https://www.figma.com/proto/slj591nlcut152rAf9b5sb/KLP-11---SVI---UIX16?page-id=132%3A478&node-id=140-623&viewport=600%2C167%2C0.07&t=HyHwBcLZREjBhrQS-1&scaling=scale-down&content-scaling=fixed&starting-point-node-id=140%3A623&show-proto-sidebar=1"
+                    className="py-4 px-6 bg-white text-[#1DBAF4] w-fit font-medium text-lg"
+                    target="_blank"
+                  >
+                    Explore Prototype
+                  </a>
+                </div>
+              </div>
+            </div>
           </div>
-          <div className="img-full">
-            <img src="/kitabisa_assets/banner.svg" alt="portfolio5" />
-          </div>
+
           <div className="container md:mx-auto md:px-40 desc-detail-project">
-            <div className="subtitle w-full md:w-5/12">About the Project</div>
-            <div className="desc w-full">
+            <h2 className="subtitle w-full md:w-5/12">Tentang Project</h2>
+            <p className="desc w-full">
               Halo semuanya!! pada kesempatan kali ini saya akan membagikan
               proses saya dalam mendesign menu kabar terbaru di aplikasi
               Kitabisa. Enjoy it :) Sebelum lanjut ketahap selanjutnya, saya mau
               disclaimer dulu, kalau project yang saya buat merupakan peserta
               dari program Skilvul Virtual Intership, dimana challange partner
               yang saya pilih yaitu Kitabisa sebagai project saya kali ini.
-            </div>
+            </p>
           </div>
           <div className="container md:mx-auto md:px-40 desc-detail-project">
-            <div className="subtitle w-full md:w-5/12">Tentang Kitabisa</div>
-            <div className="desc w-full">
-              Kitabisa merupakan platform galang dana dan donasi di indonesia
+            <h2 className="subtitle w-full md:w-5/12">Tentang Kitabisa</h2>
+            <p className="desc w-full">
+              <span className="font-bold">
+                Kitabisa merupakan platform galang dana dan donasi di
+                indonesia&nbsp;
+              </span>
               yang berdiri pada tahun 2013. Dengan aplikasi ini kita dapat
               melakukan penggalangan dana untuk berbagai tujuan, misal untuk
               membantu pengobatan seseorang, bencana alam, tenaga medis,
-              pendidikan, dll
-            </div>
+              pendidikan, dll. <br></br>
+              <br></br>
+              Dalam menyelesaikan project challenge dari Kitabisa, saya{" "}
+              <span className="font-bold">
+                berkolaborasi dengan 2 anggota tim
+              </span>{" "}
+              saya yaitu Yusril dan Vanika Gusmawti untuk menemukan masalah dan
+              mencari ide solusi.<br></br>
+            </p>
           </div>
           <div className="container md:mx-auto md:px-40 img-medium">
             <img
@@ -52,20 +108,22 @@ const ProjectKitabisa = () => {
             />
           </div>
           <div className="container md:mx-auto md:px-40 desc-detail-project">
-            <div className="subtitle w-full md:w-5/12">Problem…</div>
-            <div className="desc w-full">
+            <h2 className="subtitle w-full md:w-5/12">Permasalahan…</h2>
+            <p className="desc w-full">
               Dari brief yang di berikan oleh Kitabisa, kami diminta bagaimana
-              menampilkan halaman kabar terbaru kepada donatur sehingga secara
-              experience mereka terasa lebih menarik secara emosional dan
-              meningkatkan donatur agar mereka mau berdonasi lagi.
-            </div>
+              <span className="font-bold">
+                &nbsp;menampilkan halaman kabar terbaru kepada donatur sehingga
+                secara experience mereka terasa lebih menarik secara emosional
+                dan meningkatkan donatur agar mereka mau berdonasi lagi.
+              </span>
+            </p>
           </div>
           <div className="container md:mx-auto md:px-40 desc-detail-project">
-            <div className="subtitle w-full md:w-5/12">Objective</div>
-            <div className="desc w-full">
+            <h2 className="subtitle w-full md:w-5/12">Tujuan Project</h2>
+            <p className="desc w-full">
               Berdasarkan dari problem yang kami dapatkan, maka ada beberapa
               goals yang ingin tim kami capai, yaitu :
-            </div>
+            </p>
           </div>
           <div className="container md:mx-auto md:px-40 img-medium">
             <img
@@ -75,29 +133,15 @@ const ProjectKitabisa = () => {
             />
           </div>
           <div className="container md:mx-auto md:px-40 desc-detail-project">
-            <div className="subtitle w-full md:w-5/12">My Role</div>
-            <div className="desc w-full">
-              Dalam menyelesaikan project challenge dari Kitabisa, saya
-              berkolaborasi dengan 2 anggota tim saya yaitu Yusril dan Vanika
-              Gusmawti , di tim ini saya bertanggung jawab untuk :
-              <ol>
-                <li>
-                  Bersama-sama brainstorming untuk menemukan masalah dan mencari
-                  ide solusi.
-                </li>
-                <li> Merancang UI Design yang user friendly.</li>
-                <li> User research dan usability testing.</li>
-              </ol>
-            </div>
-          </div>
-          <div className="container md:mx-auto md:px-40 desc-detail-project">
-            <div className="subtitle w-full md:w-5/12">Design Process</div>
-            <div className="desc w-full">
-              Dalam memudahkan menyelesaikan challenge ini kami menggunakan
-              Metode Design Thingking sebagai pendekatan design process yang
-              kami lakukan, berikut beberapa tahapan yang di lakukan pada design
-              thingking :
-            </div>
+            <h2 className="subtitle w-full md:w-5/12">Design Process</h2>
+            <p className="desc w-full">
+              Dalam memudahkan menyelesaikan challenge ini kami menggunakan{" "}
+              <span className="font-bold">
+                Metode Design Thingking sebagai pendekatan design process
+              </span>{" "}
+              yang kami lakukan, berikut beberapa tahapan yang di lakukan pada
+              design thingking :
+            </p>
           </div>
           <div className="container md:mx-auto md:px-40 img-medium">
             <img
@@ -107,26 +151,35 @@ const ProjectKitabisa = () => {
             />
           </div>
           <div className="container md:mx-auto md:px-40 desc-detail-project">
-            <div className="subtitle w-full md:w-5/12">1. Emphatize</div>
-            <div className="desc w-full">
+            <h2 className="subtitle w-full md:w-5/12">1. Emphatize</h2>
+            <p className="desc w-full">
               Tahap pertama yang kami lakukan yaitu Emphatize, dimana disini
               kita mencari masalah yang dijumpai oleh pengguna pada aplikasi
-              Kitabisa dengan metode Secondary Research. Metode Secondary
-              Research sendiri yaitu metode riset yang dilakukan dengan
-              mengumpulkan dan menganalisis data dari informasi yang ditemukan,
-              seperti data analitik dari artikel, melakukan analisis kompetitor,
-              mencari referensi jurnal, dan lain-lain.
-            </div>
+              Kitabisa dengan{" "}
+              <span className="font-bold">metode Secondary Research</span>.
+              Metode Secondary Research sendiri yaitu metode riset yang
+              dilakukan dengan{" "}
+              <span className="font-bold">
+                mengumpulkan dan menganalisis data
+              </span>{" "}
+              dari informasi yang ditemukan, seperti{" "}
+              <span className="font-bold">data analitik dari artikel</span>,
+              melakukan <span className="font-bold">analisis kompetitor</span>,
+              mencari <span className="font-bold">referensi jurnal</span>, dan
+              lain-lain.
+            </p>
           </div>
           <div className="container md:mx-auto md:px-40 desc-detail-project">
-            <div className="subtitle w-full md:w-5/12">2. Define</div>
-            <div className="desc w-full">
+            <h2 className="subtitle w-full md:w-5/12">2. Define</h2>
+            <p className="desc w-full">
               Tahap selanjutnya yaitu tahap Define, pada tahap ini kita
-              mengumpulkan permasalahan yang sudah kita temui di tahap
-              sebelumnya kedalam Pain Point, Pain Point sendiri merupakan
-              masalah-masalah yang sering ditemukan oleh pengguna dari sebuah
-              produk yang digunakan, ada beberapa point yang kita dapatkan.
-            </div>
+              <span className="font-bold">mengumpulkan permasalahan</span> yang
+              sudah kita temui di tahap sebelumnya kedalam{" "}
+              <span className="font-bold">Pain Point</span>, Pain Point sendiri
+              merupakan masalah-masalah yang sering ditemukan oleh pengguna dari
+              sebuah produk yang digunakan, ada beberapa point yang kita
+              dapatkan.
+            </p>
           </div>
           <div className="container md:mx-auto md:px-40 img-medium">
             <img
@@ -136,24 +189,33 @@ const ProjectKitabisa = () => {
             />
           </div>
           <div className="container md:mx-auto md:px-40 desc-detail-project">
-            <div className="subtitle w-full md:w-5/12">HMW (How Might We)</div>
-            <div className="desc w-full">
-              Dari beberapa pain point tersebut kita akan mencari sebanyak
-              mungkin ide dengan metode How Might We (HMW). Dengan metode ini
-              kita bisa menggali sebanyak mungkin ide solusi dari suatu
-              permasalah atau tantangan, singkatnya How Might We itu adalah
-              “Bagaimana Kita”. Dengan ini kita bisa memilih HMW yang mana mau
-              kita kembangkan, dengan hasil voting maka HMW yang kita pilih
-              adalah
-              <ol>
-                <li>Memudahkan donatur dalam melakukan donasi.</li>
+            <h2 className="subtitle w-full md:w-5/12">HMW (How Might We)</h2>
+            <p className="desc w-full">
+              Dari beberapa pain point pada card diatas, kita akan{" "}
+              <span className="font-bold">mencari sebanyak mungkin ide</span>{" "}
+              dengan metode{" "}
+              <span className="font-bold">How Might We (HMW)</span>. Dengan
+              metode ini kita bisa menggali sebanyak mungkin ide solusi dari
+              suatu permasalah atau tantangan, singkatnya How Might We itu
+              adalah “Bagaimana Kita”. Dengan ini kita bisa memilih HMW yang
+              mana mau kita kembangkan, dengan hasil voting maka HMW yang kita
+              pilih adalah<br></br>
+              <br></br>
+              <ul style={{ listStyleType: "disc", paddingLeft: "20px" }}>
+                <li>
+                  <span className="font-bold">Memudahkan donatur</span> dalam
+                  melakukan donasi.
+                </li>
                 <li>
                   {" "}
-                  Meningkatkan emosional donatur saat berdonasi agar donatur mau
-                  berdonasi lagi.
+                  <span className="font-bold">
+                    Meningkatkan emosional donatur{" "}
+                  </span>
+                  saat berdonasi agar donatur{" "}
+                  <span className="font-bold">mau berdonasi lagi.</span>
                 </li>
-              </ol>
-            </div>
+              </ul>
+            </p>
           </div>
           <div className="container md:mx-auto md:px-40 img-medium">
             <img
@@ -170,7 +232,7 @@ const ProjectKitabisa = () => {
             />
           </div>
           <div className="container md:mx-auto md:px-40 desc-detail-project">
-            <div className="subtitle w-full md:w-5/12">3. Ideate</div>
+            <h2 className="subtitle w-full md:w-5/12">3. Ideate</h2>
             <div className="desc w-full">
               Setelah kami menentukan HMW kami akan menjadi lebih mudah dan
               lebih spesifik dalam mengembangkan ide solusi dari sebuah masalah,
@@ -185,11 +247,16 @@ const ProjectKitabisa = () => {
             />
           </div>
           <div className="container md:mx-auto md:px-40 desc-detail-project">
-            <div className="subtitle w-full md:w-5/12">Affinity Diagram</div>
-            <div className="desc w-full">
-              Selanjutnya ide-ide tersebut kita kelompokan berdasarkan kategori
-              dan fungsinya masing-masing pada Affinity Diagram.
-            </div>
+            <h2 className="subtitle w-full md:w-5/12">Affinity Diagram</h2>
+            <p className="desc w-full">
+              Selanjutnya{" "}
+              <span className="font-bold">
+                ide-ide tersebut kita kelompokan
+              </span>{" "}
+              berdasarkan{" "}
+              <span className="font-bold">kategori dan fungsinya</span>{" "}
+              masing-masing pada Affinity Diagram.
+            </p>
           </div>
           <div className="container md:mx-auto md:px-40 img-medium">
             <img
@@ -199,14 +266,23 @@ const ProjectKitabisa = () => {
             />
           </div>
           <div className="container md:mx-auto md:px-40 desc-detail-project">
-            <div className="subtitle w-full md:w-5/12">Prioritization Idea</div>
-            <div className="desc w-full">
-              Tahap selanjutnya yaitu Prioritization Idea, pada tahap ini kita
-              mempersempit lagi ide-ide yang sudah ditemukan. Disini kita
-              temukan solusi dan fitur apa saja yang harus kita kembangkan
-              terlebih dahulu, dengan fokus parameter User Value yang tinggi dan
-              Effort yang rendah untuk pengerjaannya.
-            </div>
+            <h2 className="subtitle w-full md:w-5/12">Prioritization Idea</h2>
+            <p className="desc w-full">
+              Tahap selanjutnya yaitu Prioritization Idea, pada tahap ini kita{" "}
+              <span className="font-bold">
+                mempersempit lagi ide-ide yang sudah ditemukan.
+              </span>{" "}
+              Disini kita{" "}
+              <span className="font-bold">temukan solusi dan fitur</span> apa
+              saja yang harus kita{" "}
+              <span className="font-bold">kembangkan terlebih dahulu,</span>{" "}
+              dengan{" "}
+              <span className="font-bold">
+                fokus parameter User Value yang tinggi
+              </span>{" "}
+              dan <span className="font-bold">Effort yang rendah </span> untuk
+              pengerjaannya.
+            </p>
           </div>
           <div className="container md:mx-auto md:px-40 img-medium">
             <img
@@ -223,17 +299,19 @@ const ProjectKitabisa = () => {
             />
           </div>
           <div className="container md:mx-auto md:px-40 desc-detail-project">
-            <div className="subtitle w-full md:w-5/12">Crazy 8's</div>
-            <div className="desc w-full">
-              Setelah itu, kami setiap anggota tim akan melakukan brainstorming
-              ide design menggunakan metode Crazy 8’s yang nanti selanjutnya
-              akan dikembangkan lebih detail pada tahap Wireframing, Crazy 8’s
-              sendiri merupakan metode design dengan cara kita melipat kertas
-              menjadi 8 bagian, lalu kita akan mendesign screen berdasarkan
-              ide-ide sebelumnya ditemukan selama 8 menit. Dengan metode ini
-              kita dapat jauh lebih cepat, karena kita bisa mencoba alternatif
-              desain atau layout dalam waktu yang relatif singkat.
-            </div>
+            <h2 className="subtitle w-full md:w-5/12">Crazy 8's</h2>
+            <p className="desc w-full">
+              Setelah itu, kami setiap anggota tim akan melakukan{" "}
+              <span className="font-bold">brainstorming ide design</span>{" "}
+              menggunakan <span className="font-bold">metode Crazy 8’s</span>{" "}
+              yang nanti selanjutnya akan dikembangkan lebih detail pada tahap
+              Wireframing, Crazy 8’s sendiri merupakan metode design dengan cara
+              kita melipat kertas menjadi 8 bagian, lalu kita akan mendesign
+              screen berdasarkan ide-ide sebelumnya ditemukan selama 8 menit.
+              Dengan metode ini kita dapat jauh lebih cepat, karena kita bisa
+              mencoba alternatif desain atau layout dalam waktu yang relatif
+              singkat.
+            </p>
           </div>
           <div className="container md:mx-auto md:px-40 img-medium">
             <img
@@ -243,18 +321,26 @@ const ProjectKitabisa = () => {
             />
           </div>
           <div className="container md:mx-auto md:px-40 desc-detail-project">
-            <div className="subtitle w-full md:w-5/12">User Flow</div>
-            <div className="desc w-full">
+            <h2 className="subtitle w-full md:w-5/12">User Flow</h2>
+            <p className="desc w-full">
               User Flow adalah kumpulan langkah-langkah yang harus dilakukan
               oleh pengguna saat menggunakan produk untuk menyelesaikan tugas
-              tertentu. Pada bagian ini kami berfokus bagaimana agar pengguna
-              dapat dengan mudah mengakses halaman kabar terbaru. Dari User flow
-              yang sudah kami rancang, kami melakukan improve agar mempersingkat
-              flow user dalam mengakses halaman kabar terbaru dengan cara
-              membuat section kabar terbaru di halaman homepage, nantinya di
-              section ini akan menampilkan kabar terbaru berdasarkan campaign
-              yang sudah pengguna donasikan.
-            </div>
+              tertentu. Pada bagian ini kami berfokus bagaimana agar{" "}
+              <span className="font-bold">
+                pengguna dapat dengan mudah mengakses halaman kabar terbaru.
+              </span>{" "}
+              Dari User flow yang sudah kami rancang, kami melakukan improve
+              agar{" "}
+              <span className="font-bold">
+                mempersingkat flow user dalam mengakses halaman kabar terbaru
+              </span>{" "}
+              dengan cara
+              <span className="font-bold">
+                membuat section kabar terbaru di halaman homepage,
+              </span>{" "}
+              nantinya di section ini akan menampilkan kabar terbaru berdasarkan
+              campaign yang sudah pengguna donasikan.
+            </p>
           </div>
           <div className="container md:mx-auto md:px-40 img-medium">
             <img
@@ -264,15 +350,17 @@ const ProjectKitabisa = () => {
             />
           </div>
           <div className="container md:mx-auto md:px-40 desc-detail-project">
-            <div className="subtitle w-full md:w-5/12">Wireframe</div>
-            <div className="desc w-full">
+            <h2 className="subtitle w-full md:w-5/12">Wireframe</h2>
+            <p className="desc w-full">
               Wireframe adalah kerangka dari suatu design yang berisi
               informasi-informasi penting yang akan ditampilkan pada suatu
               halaman. Pada tahap ini kami membuat wireframe dari ide-ide yang
-              sudah kami temukan sebelumnya. Dengan wireframe ini kita bisa
-              menentukan layout dan struktur dari suatu halaman, tanpa harus
-              memikirkan desain visualnya terlebih dahulu.
-            </div>
+              sudah kami temukan sebelumnya. Dengan wireframe ini kita bisa{" "}
+              <span className="font-bold">
+                menentukan layout dan struktur dari suatu halaman,
+              </span>{" "}
+              tanpa harus memikirkan desain visualnya terlebih dahulu.
+            </p>
           </div>
           <div className="container md:mx-auto md:px-40 img-medium">
             <img
@@ -282,13 +370,19 @@ const ProjectKitabisa = () => {
             />
           </div>
           <div className="container md:mx-auto md:px-40 desc-detail-project">
-            <div className="subtitle w-full md:w-5/12">High Fidelity</div>
-            <div className="desc w-full">
+            <h2 className="subtitle w-full md:w-5/12">High Fidelity</h2>
+            <p className="desc w-full">
               High Fidelity adalah tahap dimana kita membuat design yang sudah
-              kita buat sebelumnya menjadi lebih detail dan lebih realistis.
-              Pada tahap ini kita akan menambahkan warna, icon, dan font yang
-              sesuai dengan brand Kitabisa.
-            </div>
+              kita buat sebelumnya menjadi{" "}
+              <span className="font-bold">
+                lebih detail dan lebih realistis.
+              </span>
+              Pada tahap ini kita akan{" "}
+              <span className="font-bold">
+                menambahkan warna, icon, dan font yang sesuai dengan brand
+                Kitabisa.
+              </span>
+            </p>
           </div>
           <div className="container md:mx-auto md:px-40 img-medium">
             <img
@@ -297,34 +391,36 @@ const ProjectKitabisa = () => {
               className="w-full h-auto"
             />
           </div>
-          <iframe
-            className="container md:mx-auto md:px-40 w-full"
-            height={640}
-            src="https://www.figma.com/embed?embed_host=share&url=https%3A%2F%2Fwww.figma.com%2Fproto%2Fslj591nlcut152rAf9b5sb%2FKLP-11---SVI---UIX16%3Fpage-id%3D132%253A478%26type%3Ddesign%26node-id%3D140-623%26viewport%3D329%252C171%252C0.07%26t%3Di41yyVjljI2gnPhI-1%26scaling%3Dscale-down%26starting-point-node-id%3D140%253A623%26show-proto-sidebar%3D1%26mode%3Ddesign"
-            allowfullscreen
-          ></iframe>
           <div className="container md:mx-auto md:px-40 desc-detail-project">
-            <div className="subtitle w-full md:w-5/12">5. Testing</div>
-            <div className="desc w-full">
+            <h2 className="subtitle w-full md:w-5/12">5. Testing</h2>
+            <p className="desc w-full">
               Pada tahap ini kita akan melakukan proses validasi ide dari yang
               sudah kami buat, disini kami akan membagi kan prototype yang sudah
-              saya buat yang nantinya akan langsung di coba oleh user. Untuk
-              metode testing yang kami gunakan yaitu metode In-Depth Interview
-              dan Usability Testing dengan hasil dari Single Ease Question
-              adalah 6/7, yang artinya prototype yang sudah dibuat sudah
-              memenuhi dari permasalah yang kita temui.
-            </div>
+              saya buat yang nantinya akan langsung di coba oleh user. Untuk{" "}
+              <span className="font-bold">
+                metode testing yang kami gunakan yaitu metode In-Depth Interview
+                dan Usability Testing
+              </span>{" "}
+              dengan hasil dari{" "}
+              <span className="font-bold">
+                Single Ease Question adalah 6/7,
+              </span>{" "}
+              yang artinya prototype yang sudah dibuat sudah
+              <span className="font-bold">
+                menyelesaikan dari permasalah yang kita temui.
+              </span>
+            </p>
           </div>
           <div className="container md:mx-auto md:px-40 desc-detail-project">
-            <div className="subtitle w-full md:w-5/12">Kesimpulan</div>
-            <div className="desc w-full">
+            <h2 className="subtitle w-full md:w-5/12">Kesimpulan</h2>
+            <p className="desc w-full">
               Dalam case study ini tim kami mencoba untuk menjawab permasalahan
               yang sudah di jabarkan sebelumnya, tentu baik dari sisi UX, UI,
               dan tulisan yang dibuat masih banyak kekurangan dan masih bisa
               untuk di kembangkan lagi. Sekian studi kasus dari saya, semoga di
               studi kasus ini bisa menginspirasi teman-teman semua. Terimakasih
               sudah mau mampir dan membaca tulisan saya.
-            </div>
+            </p>
           </div>
         </div>
 
