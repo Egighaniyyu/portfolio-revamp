@@ -80,6 +80,38 @@ export default function Home() {
         </div>
         {/* end services */}
 
+        {/* about */}
+        <div className="container mt-section relative">
+          <div className="flex flex-col gap-4 absolute">
+            <div className="portfolio-title uppercase text-[#0eb0f1]">
+              Design with Purpose.
+            </div>
+            <div className="portfolio-title uppercase text-[#0eb0f1]">
+              Build with Precision.
+            </div>
+          </div>
+          <div className="flex flex-col lg:flex-row items-end gap-8 pt-24">
+            <div className="about-image w-full lg:w-6/12">
+              <img
+                src="images/about.png"
+                alt="about"
+                className="aspect-video object-cover object-top"
+              />
+            </div>
+            <div className="about-content w-full lg:w-6/12">
+              <p className="mt-4 small-qoute-grey">
+                Detail-oriented UI/UX Designer with experience creating
+                intuitive, user-focused digital products across different
+                industries. Comfortable working remotely, collaborating with
+                teams, and turning complex problems into clear, high-quality
+                solutions. Curious about language, technology, and building
+                human-centered AI experiences.
+              </p>
+            </div>
+          </div>
+        </div>
+        {/* end about */}
+
         {/* swipe services */}
         <div className="mt-section">
           <Splide
@@ -97,8 +129,7 @@ export default function Home() {
               },
             }}
             extensions={{ AutoScroll }}
-            className="py-5 bg-black swipe-service"
-          >
+            className="py-5 bg-black swipe-service">
             <SplideSlide>
               <div className="text-swipe-services">UI DESIGNER</div>
             </SplideSlide>
@@ -154,15 +185,13 @@ export default function Home() {
               },
             }}
             extensions={{ AutoScroll }}
-            className="swipe-portfolio"
-          >
+            className="swipe-portfolio">
             <SplideSlide>
               {/* <div className="cursor-eye-portfolio"> */}
               <a
                 href="https://menyfinance.framer.website/"
                 target="_blank"
-                className="w-auto h-auto"
-              >
+                className="w-auto h-auto">
                 <img
                   src={Portfolio8}
                   alt="portfolio8"
@@ -176,8 +205,7 @@ export default function Home() {
               <a
                 href="/detail-project/ui-ux-case-study-menu-kabar-terbaru-kitabisa-com"
                 target="_blank"
-                className="w-auto h-auto"
-              >
+                className="w-auto h-auto">
                 <img
                   src={Portfolio5}
                   alt="portfolio5"
@@ -191,8 +219,7 @@ export default function Home() {
               <a
                 href="https://egighaniyyu.notion.site/UI-UX-Case-Study-PWMP-Link-App-Revamp-17a8348f2a5945d3bede4fc6871f2a18?pvs=4"
                 target="_blank"
-                className="w-auto h-auto"
-              >
+                className="w-auto h-auto">
                 <img
                   src={Portfolio6}
                   alt="portfolio6"
@@ -206,8 +233,7 @@ export default function Home() {
               <a
                 href="https://idpods.co.id/"
                 target="_blank"
-                className="w-auto h-auto"
-              >
+                className="w-auto h-auto">
                 <img
                   src={Portfolio1}
                   alt="portfolio1"
@@ -221,8 +247,7 @@ export default function Home() {
               <a
                 href="https://dribbble.com/shots/22134409-SIM-RS-Medical-Dashboard"
                 target="_blank"
-                className="w-auto h-auto"
-              >
+                className="w-auto h-auto">
                 <img
                   src={Portfolio7}
                   alt="portfolio7"
@@ -236,8 +261,7 @@ export default function Home() {
               <a
                 href="https://dribbble.com/shots/22088961-CashWave-Finance-Mobile-APP"
                 target="_blank"
-                className="w-auto h-auto"
-              >
+                className="w-auto h-auto">
                 <img
                   src={Portfolio2}
                   alt="portfolio2"
@@ -251,8 +275,7 @@ export default function Home() {
               <a
                 href="https://dribbble.com/shots/22083501-SmartLiving-Smart-Home-Mobile-App"
                 target="_blank"
-                className="w-auto h-auto"
-              >
+                className="w-auto h-auto">
                 <img
                   src={Portfolio3}
                   alt="portfolio3"
@@ -266,8 +289,7 @@ export default function Home() {
               <a
                 href="https://dribbble.com/shots/19903136-Weather-App"
                 target="_blank"
-                className="w-auto h-auto"
-              >
+                className="w-auto h-auto">
                 <img
                   src={Portfolio4}
                   alt="portfolio4"
@@ -294,15 +316,13 @@ export default function Home() {
               },
             }}
             extensions={{ AutoScroll }}
-            className="swipe-portfolio"
-          >
+            className="swipe-portfolio">
             <SplideSlide>
               {/* <div className="cursor-eye-portfolio"> */}
               <a
                 href="https://menyfinance.framer.website/"
                 target="_blank"
-                className="w-auto h-auto"
-              >
+                className="w-auto h-auto">
                 <img
                   src={Portfolio8}
                   alt="portfolio8"
@@ -316,8 +336,7 @@ export default function Home() {
               <a
                 href="https://idpods.co.id/"
                 target="_blank"
-                className="w-auto h-auto"
-              >
+                className="w-auto h-auto">
                 <img
                   src={Portfolio1}
                   alt="portfolio1"
@@ -331,8 +350,7 @@ export default function Home() {
               <a
                 href="https://dribbble.com/shots/22088961-CashWave-Finance-Mobile-APP"
                 target="_blank"
-                className="w-auto h-auto"
-              >
+                className="w-auto h-auto">
                 <img
                   src={Portfolio2}
                   alt="portfolio2"
@@ -346,8 +364,7 @@ export default function Home() {
               <a
                 href="https://dribbble.com/shots/22083501-SmartLiving-Smart-Home-Mobile-App"
                 target="_blank"
-                className="w-auto h-auto"
-              >
+                className="w-auto h-auto">
                 <img
                   src={Portfolio3}
                   alt="portfolio3"
@@ -361,8 +378,7 @@ export default function Home() {
               <a
                 href="https://dribbble.com/shots/19903136-Weather-App"
                 target="_blank"
-                className="w-auto h-auto"
-              >
+                className="w-auto h-auto">
                 <img
                   src={Portfolio4}
                   alt="portfolio4"
